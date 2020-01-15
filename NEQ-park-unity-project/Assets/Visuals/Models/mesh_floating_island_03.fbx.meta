@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: ffc437c90cd5dc54080098434241f9a0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Floating_island_01_water
+    100002: Floating_island_01_water1
+    100004: Floating_island_01_water2
+    100006: //RootNode
+    100008: pCube27
+    100010: pCube28
+    100012: pCube29
+    100014: pCube34
+    100016: pCube35
+    100018: polySurface5
+    100020: rock10
+    100022: rock11
+    100024: rock3
+    100026: rock8
+    100028: rock9
+    400000: Floating_island_01_water
+    400002: Floating_island_01_water1
+    400004: Floating_island_01_water2
+    400006: //RootNode
+    400008: pCube27
+    400010: pCube28
+    400012: pCube29
+    400014: pCube34
+    400016: pCube35
+    400018: polySurface5
+    400020: rock10
+    400022: rock11
+    400024: rock3
+    400026: rock8
+    400028: rock9
+    2100000: Outline
+    2100002: MatRockVangogh
+    2100004: MatLeavesPurple
+    2100006: Mat_bark_dark
+    2100008: matWaterVangogh
+    2100010: MatGroundPattern
+    2100012: RockmountPurple
+    2300000: Floating_island_01_water
+    2300002: Floating_island_01_water1
+    2300004: Floating_island_01_water2
+    2300006: pCube27
+    2300008: pCube28
+    2300010: pCube29
+    2300012: pCube34
+    2300014: pCube35
+    2300016: polySurface5
+    2300018: rock10
+    2300020: rock11
+    2300022: rock3
+    2300024: rock8
+    2300026: rock9
+    3300000: Floating_island_01_water
+    3300002: Floating_island_01_water1
+    3300004: Floating_island_01_water2
+    3300006: pCube27
+    3300008: pCube28
+    3300010: pCube29
+    3300012: pCube34
+    3300014: pCube35
+    3300016: polySurface5
+    3300018: rock10
+    3300020: rock11
+    3300022: rock3
+    3300024: rock8
+    3300026: rock9
+    4300000: rock11
+    4300002: rock10
+    4300004: rock9
+    4300006: rock8
+    4300008: polySurface5
+    4300010: rock3
+    4300012: pCube35
+    4300014: pCube29
+    4300016: pCube28
+    4300018: pCube34
+    4300020: Floating_island_01_water1
+    4300022: pCube27
+    4300024: Floating_island_01_water2
+    4300026: Floating_island_01_water
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatGroundPattern
+    second: {fileID: 2100000, guid: 44a6a69b56b589545a18c05f9ba05202, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatLeavesPurple
+    second: {fileID: 2100000, guid: fc957e21db1260a4cb6e79a0f9b2339b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MatRockVangogh
+    second: {fileID: 2100000, guid: 93af6727fba593c4bab2ddcb66edfdc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat_bark_dark
+    second: {fileID: 2100000, guid: 75395ab8cf03a0640b7f4ff47176e65e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline
+    second: {fileID: 2100000, guid: 46e08924b29474140b7556194562fe03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RockmountPurple
+    second: {fileID: 2100000, guid: a34ead8e4d9021c4098a8e2ab5404577, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: matWaterVangogh
+    second: {fileID: 2100000, guid: 9cebd4d1d98f222408c054138f57e7f0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
