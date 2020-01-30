@@ -1,0 +1,207 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 755,
+			"max": [ 1247.853, 156.6293, 1127.074 ],
+			"min": [ -1607.758, -916.9283, -1144.293 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 9060,
+			"componentType": 5126,
+			"count": 755,
+			"max": [ 0.9965031, 0.999963, 0.9966528 ],
+			"min": [ -0.9841279, -0.9999983, -0.9994636 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 755,
+			"max": [ 3.896165, 2.793574 ],
+			"min": [ -1.807006, -1.015653 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 755,
+			"max": [ 0.9917263, 0.9881029, 0.9974725, 1 ],
+			"min": [ -0.9836445, -0.999254, -0.9987551, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 1881,
+			"max": [ 344 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 3762,
+			"componentType": 5123,
+			"count": 1293,
+			"max": [ 754 ],
+			"min": [ 345 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 42588,
+			"uri": "entity439600.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 6348,
+			"target": 34963,
+			"byteOffset": 36240
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6040,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18120,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 6040
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12080,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 24160
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Textures/texture_grass_base_01.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Textures/texture_rock_mounts_01.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "mat04"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 1,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "mat08"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Floating_island_01_11588Floating_island_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Floating_island_01",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		}
+	]
+}

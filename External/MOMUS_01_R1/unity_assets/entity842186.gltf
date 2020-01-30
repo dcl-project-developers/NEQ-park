@@ -1,0 +1,224 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 836,
+			"max": [ 0.1870252, 0.8501794, 1.089866 ],
+			"min": [ -0.1870252, 0.3027257, -0.06384572 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 10032,
+			"componentType": 5126,
+			"count": 836,
+			"max": [ 0.999301, 0.9999996, 0.9657575 ],
+			"min": [ -0.9993095, -0.9998399, -0.9997603 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 836,
+			"max": [ 0.8112715, 0.9682403 ],
+			"min": [ 0.02542228, 0.3199619 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 836,
+			"max": [ 14, 14, 14, 18 ],
+			"min": [ 0, 0, 0, 0 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 836,
+			"max": [ 1, 0.5, 0.3150877, 0.09073645 ],
+			"min": [ 0.3600553, 0, 0, 0 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 13376,
+			"componentType": 5126,
+			"count": 836,
+			"max": [ 0.9999764, 0.9990504, 0.767597, 1 ],
+			"min": [ -0.9999992, -0.999603, -0.6008439, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 978,
+			"max": [ 191 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 1956,
+			"componentType": 5123,
+			"count": 978,
+			"max": [ 835 ],
+			"min": [ 192 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 64104,
+			"uri": "entity842186.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 3912,
+			"target": 34963,
+			"byteOffset": 60192
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6688,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 20064,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 6688
+		},
+		{
+			"buffer": 0,
+			"byteLength": 26752,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 26752
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6688,
+			"byteStride": 8,
+			"byteOffset": 53504
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Textures/texture_mountain_cat.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "mat_cat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 1,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "outline"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_mesh_mountain_cat_03_11332mesh_mountain_cat_03",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"JOINTS_0": 3,
+						"WEIGHTS_0": 4,
+						"TANGENT": 5
+					},
+					"indices": 6,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"JOINTS_0": 3,
+						"WEIGHTS_0": 4,
+						"TANGENT": 5
+					},
+					"indices": 7,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_mesh_mountain_cat_03",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

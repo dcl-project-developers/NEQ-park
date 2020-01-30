@@ -1,0 +1,192 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 40,
+			"max": [ 0.002247059, 0.06251926, -0.0006605001 ],
+			"min": [ -0.1240543, -0.06516447, -0.004196853 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 480,
+			"componentType": 5126,
+			"count": 40,
+			"max": [ 0.3482498, 0.3816376, 0.9997001 ],
+			"min": [ -0.3482498, -0.3816376, -0.9997001 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 40,
+			"max": [ 0.4105455, 0.9447261 ],
+			"min": [ 0.08679062, 0.07155198 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 40,
+			"max": [ 12, 13, 12, 13 ],
+			"min": [ 0, 0, 0, 0 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 40,
+			"max": [ 0.9999999, 0.5, 0.24018, 0.2258431 ],
+			"min": [ 0.2937521, 0, 0, 0 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 640,
+			"componentType": 5126,
+			"count": 40,
+			"max": [ 0.6733791, -0.7387586, 0.3815103, 1 ],
+			"min": [ -0.02043896, -0.9998534, -0.1218755, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 96,
+			"max": [ 39 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 3072,
+			"uri": "entity836186.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 192,
+			"target": 34963,
+			"byteOffset": 2880
+		},
+		{
+			"buffer": 0,
+			"byteLength": 320,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 960,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 320
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1280,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 1280
+		},
+		{
+			"buffer": 0,
+			"byteLength": 320,
+			"byteStride": 8,
+			"byteOffset": 2560
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Textures/texture_butterfly.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "mat_butterfly"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_mesh_butterfly_01_12458mesh_butterfly_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"JOINTS_0": 3,
+						"WEIGHTS_0": 4,
+						"TANGENT": 5
+					},
+					"indices": 6,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_mesh_butterfly_01",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

@@ -1,0 +1,196 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 381,
+			"max": [ 93.02411, 8.644157, 92.02232 ],
+			"min": [ -95.30505, -8.644157, -101.2608 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 4572,
+			"componentType": 5126,
+			"count": 381,
+			"max": [ 0.9997018, 1, 0.9990108 ],
+			"min": [ -0.9996883, -1, -0.9990521 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 381,
+			"max": [ 0.875, 0.75 ],
+			"min": [ 0.1724377, -2.595863E-09 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 381,
+			"max": [ 0.9998466, 0.5334529, 0.9997018, 1 ],
+			"min": [ -0.9996773, -0.4548359, -0.9971022, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 342,
+			"max": [ 191 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 684,
+			"componentType": 5123,
+			"count": 342,
+			"max": [ 380 ],
+			"min": [ 192 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 19656,
+			"uri": "entity833074.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 1368,
+			"target": 34963,
+			"byteOffset": 18288
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3048,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9144,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 3048
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6096,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 12192
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Textures/texture_rock_simple_01.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "mat09"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 1,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "outline"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_mesh_rocks_path_01_11534mesh_rocks_path_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_mesh_rocks_path_01",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

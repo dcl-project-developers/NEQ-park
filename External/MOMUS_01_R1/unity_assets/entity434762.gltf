@@ -1,0 +1,224 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1618,
+			"max": [ 0.4307864, 2.814983, 1.797866 ],
+			"min": [ -0.4307864, -0.002594926, -0.1581591 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 19416,
+			"componentType": 5126,
+			"count": 1618,
+			"max": [ 0.999324, 0.9999839, 0.9999804 ],
+			"min": [ -0.9994673, -0.9996767, -0.9999859 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1618,
+			"max": [ 0.9921299, 0.9898723 ],
+			"min": [ 0.004644156, 0.02006169 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 1618,
+			"max": [ 26, 26, 26, 25 ],
+			"min": [ 0, 0, 0, 0 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1618,
+			"max": [ 1, 0.5, 0.3040036, 0.2407784 ],
+			"min": [ 0.2711408, 0, 0, 0 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 25888,
+			"componentType": 5126,
+			"count": 1618,
+			"max": [ 0.9961526, 0.9937304, 0.9996221, 1 ],
+			"min": [ -0.999979, -0.9976764, -0.9983719, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 3690,
+			"max": [ 808 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 7380,
+			"componentType": 5123,
+			"count": 3690,
+			"max": [ 1617 ],
+			"min": [ 809 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 131256,
+			"uri": "entity434762.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 14760,
+			"target": 34963,
+			"byteOffset": 116496
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12944,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 38832,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 12944
+		},
+		{
+			"buffer": 0,
+			"byteLength": 51776,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 51776
+		},
+		{
+			"buffer": 0,
+			"byteLength": 12944,
+			"byteStride": 8,
+			"byteOffset": 103552
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Textures/texture_deer.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "mat_deer"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.013, 0.004836, 0.004836, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Outline"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_mesh_deer_01_11006mesh_deer_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"JOINTS_0": 3,
+						"WEIGHTS_0": 4,
+						"TANGENT": 5
+					},
+					"indices": 6,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"JOINTS_0": 3,
+						"WEIGHTS_0": 4,
+						"TANGENT": 5
+					},
+					"indices": 7,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_mesh_deer_01",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

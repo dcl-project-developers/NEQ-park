@@ -1,0 +1,143 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 20,
+			"max": [ 3.575999, 0.097736, 3.584966 ],
+			"min": [ -3.575998, 0.097736, -3.596351 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 240,
+			"componentType": 5126,
+			"count": 20,
+			"max": [ 0, -1, 0 ],
+			"min": [ 0, -1, 0 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 20,
+			"max": [ 0.7811961, 0.6415103 ],
+			"min": [ 0.6064429, 0.3091018 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 20,
+			"max": [ -0.8526625, 0, 0.5224621, -1 ],
+			"min": [ -1, 0, -0.5195041, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 48,
+			"max": [ 19 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 1056,
+			"uri": "entity430278.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 96,
+			"target": 34963,
+			"byteOffset": 960
+		},
+		{
+			"buffer": 0,
+			"byteLength": 160,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 480,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 160
+		},
+		{
+			"buffer": 0,
+			"byteLength": 320,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 640
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.1693, 0.3617, 0.5, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "phong2"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_polySurface63_10604polySurface631",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_polySurface631",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}

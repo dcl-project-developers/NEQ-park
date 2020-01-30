@@ -1,0 +1,143 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 97,
+			"max": [ 0.9309773, 0.467295, 0.9309775 ],
+			"min": [ -0.9309775, -1.294918, -0.9309776 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 1164,
+			"componentType": 5126,
+			"count": 97,
+			"max": [ 0.999841, 1, 0.999841 ],
+			"min": [ -0.999841, -0.5752515, -0.999841 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 97,
+			"max": [ 0.7736124, 0.7008567 ],
+			"min": [ 0.06891397, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 97,
+			"max": [ 0.9999727, 0.9834448, 1, 1 ],
+			"min": [ -1, -0.9834448, -1, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 360,
+			"max": [ 96 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 5376,
+			"uri": "entity430286.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 720,
+			"target": 34963,
+			"byteOffset": 4656
+		},
+		{
+			"buffer": 0,
+			"byteLength": 776,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2328,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 776
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1552,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 3104
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.5, 0.5, 0.5, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "phong1"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_pCylinder33_10588pCylinder331",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_pCylinder331",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}

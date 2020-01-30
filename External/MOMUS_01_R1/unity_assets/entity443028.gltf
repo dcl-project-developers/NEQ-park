@@ -1,0 +1,166 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 368,
+			"max": [ 185.1442, 210.7248, 74.00166 ],
+			"min": [ -207.9107, -20.38653, -135.6533 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 4416,
+			"componentType": 5126,
+			"count": 368,
+			"max": [ 0.9895041, 0.9990036, 0.9959438 ],
+			"min": [ -0.9909247, -0.9810144, -0.9999478 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 368,
+			"max": [ 2.269763, 1.496265 ],
+			"min": [ -0.02452263, -1.798516 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 368,
+			"max": [ 0.9469087, 0.9992648, 0.9997403, 1 ],
+			"min": [ -0.967398, -0.9978668, -0.9995891, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 1992,
+			"max": [ 367 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 21648,
+			"uri": "entity443028.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 3984,
+			"target": 34963,
+			"byteOffset": 17664
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2944,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8832,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 2944
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5888,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 11776
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Textures/texture_bark_01.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "mat01"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_mesh_root_01_12038mesh_root_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_mesh_root_01",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
