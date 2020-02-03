@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5254067367981262605}
   - component: {fileID: 874908512425624999}
   - component: {fileID: 1150797529132952700}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Str_Amphitheater_01_collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 5693767770875896469}
   - component: {fileID: 1760431568272166585}
   m_Layer: 0
-  m_Name: Str_Amphitheater_01_Art
+  m_Name: Str_Amphitheater_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

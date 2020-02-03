@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1355043228460171837}
   - component: {fileID: 5709286538286611725}
   - component: {fileID: 7023164391333152756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Bench_01_collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 6510190219211625307}
   - component: {fileID: 1155134987047206250}
   m_Layer: 0
-  m_Name: Bench_01_Art
+  m_Name: Bench_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
