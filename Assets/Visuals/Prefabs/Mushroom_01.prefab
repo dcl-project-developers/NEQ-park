@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 671615337}
   - component: {fileID: 671615336}
   m_Layer: 0
-  m_Name: Mushroom_01_Art
+  m_Name: Mushroom_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0a5cd8d57be6e4046bedc285145e8831, type: 2}
   - {fileID: 2100000, guid: 6ac5169b19d8b5a49ae85f1bc6153cc2, type: 2}
   - {fileID: 2100000, guid: 22ef1456c4eb42d47a51d60cb4b407c5, type: 2}
   m_StaticBatchInfo:
