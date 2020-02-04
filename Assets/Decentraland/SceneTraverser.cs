@@ -27,6 +27,8 @@ namespace Dcl
 
     public class ResourceRecorder
     {
+        public List<string> exportedModels = new List<string>();
+        public List<string> exportedModelsFileName = new List<string>();
         public List<GameObject> meshesToExport;
         public List<Material> primitiveMaterialsToExport;
         public List<Texture> primitiveTexturesToExport;
@@ -49,21 +51,17 @@ namespace Dcl
 
         const string indentUnit = "  ";
 
-        public static ResourceRecorder resourceRecorder;
+        static ResourceRecorder _resourceRecorder;
 
 
         private static DclSceneMeta _sceneMeta;
 
         //public  static readonly  Dictionary<GameObject, EDclNodeType> GameObjectToNodeTypeDict = new Dictionary<GameObject, EDclNodeType>();
 
-        private static HashSet<string> _uniqueObjectsNames = new HashSet<string>();
-
 
         public static ResourceRecorder TraverseAllScene(StringBuilder exportStr, SceneStatistics statistics,
             SceneWarningRecorder warningRecorder)
         {
-            _uniqueObjectsNames.Clear();
-
             var rootGameObjects = new List<GameObject>();
             for (int i = 0; i < SceneManager.sceneCount; i++)
             {
@@ -73,27 +71,68 @@ namespace Dcl
 
             _sceneMeta = Object.FindObjectOfType<DclSceneMeta>();
 
-            resourceRecorder = new ResourceRecorder();
+            _resourceRecorder = new ResourceRecorder();
 
             //GameObjectToNodeTypeDict.Clear();
 
             //====== Start Traversing ======
+            if (exportStr != null)
+            {
+                exportStr.AppendLine(""+
+                    "import { TagComponent, Path, PathFollower, DoorComponent, TrapDoorTrigger, trapDoorTriggersInfo } from \"./imports/index\"\n\n"
+                    /*"@Component('TagComponent')\n" +
+                    "class TagComponent{\n" +
+                    "    tag: string\n}\n" +
+                    "@Component('Path')\n" +
+                    "class Path{\n" +
+                    "    id: any\n" +
+                    "    pathPoints: any[]\n" +
+                    "    onFinish: number\n" +
+                    "    constructor(id: any, pathPoints: any[], onFinish: number){\n" +
+                    "        this.id = id\n" +
+                    "        this.pathPoints = pathPoints\n" +
+                    "        this.onFinish = onFinish\n" +
+                    "    }\n" +
+                    "}\n" +
+                    "@Component('PathFollower')\n" +
+                    "class PathFollower{\n" +
+                    "    pathToFollow: string\n" +
+                    "    constructor(pathToFollow: string){\n" +
+                    "        this.pathToFollow = pathToFollow\n" +
+                    "    }\n" +
+                    "}\n"+
+                    "@Component('Door')\n" +
+                    "class Door{\n" +
+                    "    closeSpeed: number\n" +
+                    "    waitToClose: number\n" +
+                    "    startClosed: Boolean\n" +
+                    "    closeMoveVector: Vector3\n" +
+                    "    constructor(closeSpeed: number, waitToClose: number, startClosed: Boolean, closeMoveVector: Vector3){\n" +
+                    "        this.closeSpeed = closeSpeed\n" +
+                    "        this.waitToClose = waitToClose\n" +
+                    "        this.startClosed = startClosed\n" +
+                    "        this.closeMoveVector = closeMoveVector\n" +
+                    "    }\n" +
+                    "}\n"*/
+                    );
+            }
+
             foreach (var rootGO in rootGameObjects)
             {
-                RecursivelyTraverseTransform(rootGO.transform, exportStr, resourceRecorder, 4, statistics,
+                RecursivelyTraverseTransform(rootGO.transform, exportStr, _resourceRecorder, 4, statistics,
                     warningRecorder);
             }
 
             //Append PlayAudio functions
             if (exportStr != null)
             {
-                if (resourceRecorder.audioSourceAddFunctions.Count > 0)
+                if (_resourceRecorder.audioSourceAddFunctions.Count > 0)
                 {
                     exportStr.AppendLine();
                     exportStr.AppendLine(
 @"export class AutoPlayUnityAudio implements ISystem {
   activate() {");
-                    foreach (var functionName in resourceRecorder.audioSourceAddFunctions)
+                    foreach (var functionName in _resourceRecorder.audioSourceAddFunctions)
                     {
                         exportStr.AppendIndent(indentUnit, 2).AppendFormat("{0}()\n", functionName);
                     }
@@ -103,15 +142,20 @@ namespace Dcl
 engine.addSystem(new AutoPlayUnityAudio())
 ");
                 }
+
+                // Append this at the end of script so other scripts can import it and set some execution order
+                //exportStr.AppendLine("export default {}");
+
             }
+
 
             if (statistics != null)
             {
-                statistics.textureCount = resourceRecorder.primitiveTexturesToExport.Count +
-                                          resourceRecorder.gltfTextures.Count;
+                statistics.textureCount = _resourceRecorder.primitiveTexturesToExport.Count +
+                                          _resourceRecorder.gltfTextures.Count;
             }
 
-            return resourceRecorder;
+            return _resourceRecorder;
         }
 
         public static void RecursivelyTraverseTransform(Transform tra, StringBuilder exportStr,
@@ -139,12 +183,71 @@ engine.addSystem(new AutoPlayUnityAudio())
 
             if (exportStr != null)
             {
+
+                Path_script pathObject = (tra.gameObject.GetComponent("Path_script") as Path_script);
+                if (pathObject)
+                {
+                    Component[] points = pathObject.GetComponentsInChildren(typeof(Path_point_script));
+                    exportStr.AppendFormat(SetPath, entityName, tra.name, pathObject.globalPathSpeed, (int)pathObject.onFinish);
+                    for (int i = 0; i < points.Length; i++)
+                    {
+                        Path_point_script point = (points[i] as Path_point_script);
+                        exportStr.AppendFormat(SetPathPoint, entityName, point.transform.position.x, point.transform.position.y, point.transform.position.z, point.speed, point.wait);
+
+                    }
+                    exportStr.AppendFormat(AddEntity, entityName);
+                    return;
+                }
+                else if ((tra.gameObject.GetComponent("Path_point_script") as Path_point_script))
+                {
+                    return;
+                }
+
+                DoorTrigger_script triggerObject = (tra.gameObject.GetComponent("DoorTrigger_script") as DoorTrigger_script);
+                if (triggerObject)
+                {
+
+                    string doorNames = "[";
+
+                    for (int i = 0; i < triggerObject.doorsToClose.Length; i++)
+                    {
+                        doorNames += "\"" + triggerObject.doorsToClose[i].name + "\"";
+                        if (i + 1 < triggerObject.doorsToClose.Length)
+                        {
+                            doorNames += ",";
+                        }
+
+                    }
+                    doorNames += "]";
+                    exportStr.AppendFormat(SetTrigger, tra.position.x, tra.position.y, tra.position.z, scale.x, scale.y, scale.z, (int)triggerObject.doorBehavior, doorNames);
+                    //exportStr.AppendFormat(AddEntity, entityName);
+                    return;
+                }
+
                 exportStr.AppendFormat(NewEntityWithName, entityName, tra.name);
+
+                
+
+                Path_follower_script pathFollower = (tra.gameObject.GetComponent("Path_follower_script") as Path_follower_script);
+                if (pathFollower)
+                {
+                    string autoActivate = "false";
+                    if (pathFollower.autoActivate)
+                    {
+                        autoActivate = "true";
+                    }
+                    exportStr.AppendFormat(SetPathFollower, entityName, pathFollower.pathToFollow.name, autoActivate);
+                }
+
+                if (tra.gameObject.tag != "Untagged")
+                {
+                    exportStr.AppendFormat(SetTag, entityName, tra.gameObject.tag);
+                }
 
                 if (tra.parent)
                 {
                     //Set Parent
-                    exportStr.AppendFormat(SetParent, entityName, GetIdentityName(tra.parent.gameObject, true));
+                    exportStr.AppendFormat(SetParent, entityName, GetIdentityName(tra.parent.gameObject));
                 }
                 else
                 {
@@ -156,6 +259,17 @@ engine.addSystem(new AutoPlayUnityAudio())
                 exportStr.AppendFormat(SetTransform, entityName, position.x, position.y, position.z);
                 exportStr.AppendFormat(SetRotation, entityName, rotation.x, rotation.y, rotation.z, rotation.w);
                 exportStr.AppendFormat(SetScale, entityName, scale.x, scale.y, scale.z);
+
+                Door_script doorObject = (tra.gameObject.GetComponent("Door_script") as Door_script);
+                if (doorObject)
+                {
+                    string startClosed = "false";
+                    if (doorObject.startClosed)
+                    {
+                        startClosed = "true";
+                    }
+                    exportStr.AppendFormat(SetDoor, entityName, doorObject.closeSpeed, doorObject.waitToClose, startClosed, doorObject.closeMoveVector.x, doorObject.closeMoveVector.y, doorObject.closeMoveVector.z);
+                }
 
             }
 
@@ -371,6 +485,8 @@ engine.addSystem(new AutoPlayUnityAudio())
         private const string NewEntityWithName = "var {0} = new Entity(\"{1}\")\n";
         private const string AddEntity = "engine.addEntity({0})\n";
 
+        private const string SetTag = "{0}.addComponent(new TagComponent())\n{0}.getComponent(TagComponent).tag = \"{1}\" \n";
+
         private const string SetTransform =
             "{0}.addComponent(new Transform({{ position: new Vector3({1}, {2}, {3}) }}))\n";
 
@@ -392,6 +508,14 @@ engine.addSystem(new AutoPlayUnityAudio())
         private const string SetMaterialRefractionTexture = "{0}.refractionTexture = new Texture(\"{1}\")\n";
         private const string SetMaterialEmissiveIntensity = "{0}.emissiveIntensity = {1}\n";
         private const string SetMaterialEmissiveTexture = "{0}.emissiveTexture = new Texture(\"{1}\")\n";
+
+        private const string SetPath = "var {0} = new Entity(\"{1}\")\n{0}.addComponent(new Path(\"{1}\", [], {2}, {3}))\n";
+        private const string SetPathPoint = "{0}.getComponent(Path).pathPoints.push({{position: new Vector3({1}, {2}, {3}), speed: {4}, wait: {5}}}) \n";
+
+        private const string SetPathFollower = "{0}.addComponent(new PathFollower(\"{1}\", {2})) \n";
+        private const string SetDoor = "{0}.addComponent(new DoorComponent({0}, {1}, {2}, {3}, new Vector3({4}, {5}, {6}))) \n";
+
+        private const string SetTrigger = "trapDoorTriggersInfo.push(new TrapDoorTrigger(new Vector3({0}, {1}, {2}), new Vector3({3}, {4}, {5}), {6}, {7}))\n";
 
         public static void ProcessMaterial(Transform tra, bool isOnOrUnderGLTF, string entityName,
             List<Material> materialsToExport, StringBuilder exportStr, SceneStatistics statistics)
@@ -484,8 +608,8 @@ engine.addSystem(new AutoPlayUnityAudio())
                             }
 
                             var textureList = isOnOrUnderGLTF
-                                ? resourceRecorder.gltfTextures
-                                : resourceRecorder.primitiveTexturesToExport;
+                                ? _resourceRecorder.gltfTextures
+                                : _resourceRecorder.primitiveTexturesToExport;
                             if (albedoTex)
                             {
                                 if (!textureList.Contains(albedoTex)) textureList.Add(albedoTex);
@@ -583,18 +707,116 @@ engine.addSystem(new AutoPlayUnityAudio())
 
                 //gltf - root
                 dclObject.dclNodeType = EDclNodeType.gltf;
+                
+                
 
+                bool bIsOvewritePrefab = true;
+                PrefabUtility.GetCorrespondingObjectFromSource(tra.gameObject);
+                //Es prefab y es MeshRenderer
+                if (PrefabUtility.GetPrefabInstanceHandle(tra.gameObject)!= null && tra.gameObject.GetComponent<MeshFilter>() != null)
+                {
+                    bIsOvewritePrefab = false;
+                    if (tra.gameObject.GetComponent<ovewriteMesh_script>() != null && tra.gameObject.GetComponent<ovewriteMesh_script>().exportToCustomGTLF)
+                    {
+                        bIsOvewritePrefab = true;
+                    }
+                    if (PrefabUtility.GetAddedGameObjects(tra.gameObject).ToArray().Length>0)
+                    {
+                        foreach (var gameObject in PrefabUtility.GetAddedGameObjects(tra.gameObject))
+                        {
+                            if (gameObject.instanceGameObject.GetComponent<MeshFilter>() != null)
+                            {
+                                bIsOvewritePrefab = true;
+                            }
+                        }
+                    }
+                    
+                }
+
+                if (bIsOvewritePrefab)
+                {
+                    if (exportStr != null)
+                    {
+                        string gltfPath = string.Format("unity_assets/{0}.gltf", GetIdentityName(tra.gameObject));
+                        exportStr.AppendFormat(SetGLTFshape, entityName, gltfPath);
+                    }
+
+                    //export as a glTF model
+                    if (resourceRecorder != null)
+                    {
+                        resourceRecorder.meshesToExport.Add(tra.gameObject);
+                    }
+                }
+                else
+                {
+                    int index = resourceRecorder.exportedModels.IndexOf(tra.gameObject.GetComponent<MeshFilter>().sharedMesh.name);
+                    if (exportStr != null)
+                    {
+                        string fileModenName = GetIdentityName(tra.gameObject);
+                        if (index > -1)
+                        {
+                            fileModenName = resourceRecorder.exportedModelsFileName[index];
+                        }
+                        string gltfPath = string.Format("unity_assets/{0}.gltf", fileModenName);
+                        exportStr.AppendFormat(SetGLTFshape, entityName, gltfPath);
+                    }
+
+                    //export as a glTF model
+                    if (resourceRecorder != null)
+                    {
+                        if(index == -1)
+                        {
+                            resourceRecorder.exportedModelsFileName.Add(GetIdentityName(tra.gameObject));
+                            resourceRecorder.exportedModels.Add(tra.gameObject.GetComponent<MeshFilter>().sharedMesh.name);
+                            resourceRecorder.meshesToExport.Add(tra.gameObject);
+                        }
+                        
+                    }
+                }
+
+
+                /*
+                string meshName = "";
+                
+                if (tra.gameObject.GetComponent<MeshFilter>())
+                {
+                    if (tra.gameObject.GetComponent<MeshFilter>().sharedMesh)
+                    {
+                        meshName = tra.gameObject.GetComponent<MeshFilter>().sharedMesh.name;
+                    }
+                }
+                
                 if (exportStr != null)
                 {
-                    string gltfPath = string.Format("unity_assets/{0}.gltf", GetIdentityName(tra.gameObject));
+                    string fileModenName = GetIdentityName(tra.gameObject);
+                    int index = resourceRecorder.exportedModels.IndexOf(meshName);
+                    if (meshName != "" && index > -1 && tra.gameObject.GetComponentInChildren<Transform>().childCount == 0)
+                    {
+                        fileModenName = resourceRecorder.exportedModelsFileName[index];
+                    }
+                        
+                    string gltfPath = string.Format("unity_assets/{0}.gltf", fileModenName);
                     exportStr.AppendFormat(SetGLTFshape, entityName, gltfPath);
                 }
 
                 //export as a glTF model
                 if (resourceRecorder != null)
                 {
-                    resourceRecorder.meshesToExport.Add(tra.gameObject);
-                }
+                    if (meshName != "" && tra.gameObject.GetComponentInChildren<Transform>().childCount == 0)
+                    {
+                        if (resourceRecorder.exportedModels.IndexOf(meshName) == -1)
+                        {
+                            resourceRecorder.exportedModelsFileName.Add(GetIdentityName(tra.gameObject));
+                            resourceRecorder.exportedModels.Add(meshName);
+                            resourceRecorder.meshesToExport.Add(tra.gameObject);
+                        }
+                        else Debug.Log("Ahorrado export: "+meshName);
+                    }
+                    else
+                    {
+                        resourceRecorder.meshesToExport.Add(tra.gameObject);
+                    }
+                }*/
             }
 
             if (exportStr != null)
@@ -707,7 +929,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                 if (audioClip)
                 {
                     audioClipRelPath = string.Format("'{0}'", GetAudioClipRelativePath(audioClip));
-                    resourceRecorder.audioClipsToExport.Add(audioClip);
+                    _resourceRecorder.audioClipsToExport.Add(audioClip);
                 }
 
                 var playFunctionName = "setAudioSource" + Mathf.Abs(audioSource.GetInstanceID());
@@ -731,7 +953,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                 exportStr.AppendIndent(indentUnit, 1).Append("}\n");
                 exportStr.Append("}\n");
 
-                resourceRecorder.audioSourceAddFunctions.Add(playFunctionName);
+                _resourceRecorder.audioSourceAddFunctions.Add(playFunctionName);
             }
         }
 
@@ -769,7 +991,7 @@ engine.addSystem(new AutoPlayUnityAudio())
             return string.Format("new Color3({0}, {1}, {2})", color.r, color.g, color.b);
         }
 
-        public static string GetIdentityName(GameObject go, bool isParent = false)
+        public static string GetIdentityName(GameObject go)
         {
             string entityName = "entity" + Mathf.Abs(go.GetInstanceID());
             entityName = entityName.Replace(" ", string.Empty);
@@ -835,7 +1057,7 @@ engine.addSystem(new AutoPlayUnityAudio())
         }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <param name="texture"></param>
         /// <returns>false if </returns>
@@ -861,7 +1083,7 @@ engine.addSystem(new AutoPlayUnityAudio())
         }
 
         /*
-         * 
+         *
         public static string CalcName(Object _object)
         {
             string name = "";
@@ -912,32 +1134,6 @@ engine.addSystem(new AutoPlayUnityAudio())
             return name;
         }*/
 
-        public static string ResolveVarNameForObject(Object obj, string prefix, bool checkDuplicity = true)
-        {
-            string finalObjectName = obj.name;
-            finalObjectName = GlTF_Writer.cleanNonAlphanumeric(finalObjectName);
-            finalObjectName = prefix + finalObjectName;
-            //if (checkDuplicity)
-            //{
-            //    if (_uniqueObjectsNames.Contains(finalObjectName))
-            //    {
-            //        int num = 1;
-            //        while (true)
-            //        {
-            //            string tempFinalObjectName = finalObjectName;
-            //            tempFinalObjectName += num;
-            //            if (_uniqueObjectsNames.Contains(tempFinalObjectName) == false)
-            //            {
-            //                finalObjectName = tempFinalObjectName;
-            //                break;
-            //            }
-            //            num++;
-            //        }
-            //    }
-            //    _uniqueObjectsNames.Add(finalObjectName);
-            //}
-            return finalObjectName;
-        }
         #endregion
     }
 }
