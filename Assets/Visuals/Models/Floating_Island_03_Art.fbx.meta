@@ -4,12 +4,17 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Floating_Island_3_collider
     400000: //RootNode
+    400002: Floating_Island_3_collider
     2100000: RockmountPurple
     2100002: MatGroundPattern
     2300000: //RootNode
+    2300002: Floating_Island_3_collider
     3300000: //RootNode
+    3300002: Floating_Island_3_collider
     4300000: Floating_Island_3
+    4300002: Floating_Island_3_collider
   externalObjects: {}
   materials:
     importMaterials: 0
