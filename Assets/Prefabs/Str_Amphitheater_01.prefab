@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 2219657105399778598}
   - component: {fileID: 5693767770875896469}
   - component: {fileID: 1760431568272166585}
+  - component: {fileID: 2893556903946149237}
   m_Layer: 0
   m_Name: Str_Amphitheater_01
   m_TagString: Untagged
@@ -173,3 +174,16 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 9
+--- !u!114 &2893556903946149237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5540908247347076864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
