@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2563243621856223602}
   - component: {fileID: 6618245403660989990}
   - component: {fileID: 140431696970077599}
-  - component: {fileID: 2080797655639182429}
+  - component: {fileID: 7847314243477528125}
   m_Layer: 0
   m_Name: Land
   m_TagString: Untagged
@@ -78,16 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &2080797655639182429
-MonoBehaviour:
+--- !u!65 &7847314243477528125
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374358039074664267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  exportToCustomGTLF: 0
+  serializedVersion: 2
+  m_Size: {x: 15.95, y: 3.5416114e-15, z: 15.95}
+  m_Center: {x: 0, y: 0, z: 0}
