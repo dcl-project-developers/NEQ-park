@@ -4,12 +4,17 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Brick_Step_01_collider
     400000: //RootNode
+    400002: Brick_Step_01_collider
     2100000: Outline
     2100002: RockmountPurple
     2300000: //RootNode
+    2300002: Brick_Step_01_collider
     3300000: //RootNode
+    3300002: Brick_Step_01_collider
     4300000: Brick_Step_01
+    4300002: Brick_Step_01_collider
   externalObjects: {}
   materials:
     importMaterials: 0
