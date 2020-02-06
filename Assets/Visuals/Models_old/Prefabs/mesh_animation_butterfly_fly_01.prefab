@@ -36,7 +36,7 @@ Transform:
   - {fileID: 1029376637}
   m_Father: {fileID: 1528304188}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 10.907797, y: 0.018431736, z: 0.00006905084}
 --- !u!114 &61806271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,7 +84,7 @@ Transform:
   - {fileID: 1913621959}
   m_Father: {fileID: 1724699431}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.335958e-16, y: -2.5445685e-15, z: -13.824381}
 --- !u!114 &107177006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,7 +132,7 @@ Transform:
   - {fileID: 1629419372}
   m_Father: {fileID: 2048773299}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.8000858, y: -29.269476, z: 5.248007}
 --- !u!114 &175726729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,7 +274,7 @@ Transform:
   - {fileID: 1744161806}
   m_Father: {fileID: 577610603}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.048386846, y: -24.53289, z: 0.34187946}
 --- !u!114 &311993175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,7 +369,7 @@ Transform:
   - {fileID: 526573283}
   m_Father: {fileID: 1086069188}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.05897145, y: -27.45165, z: 0.34535953}
 --- !u!114 &373204477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -464,7 +464,7 @@ Transform:
   - {fileID: 507613681}
   m_Father: {fileID: 1913621959}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -36.209045, y: 138.26483, z: -49.888847}
 --- !u!114 &494790081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,7 +512,7 @@ Transform:
   - {fileID: 1707052483}
   m_Father: {fileID: 494790080}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3.8597846, y: -38.219364, z: 4.3516827}
 --- !u!114 &507613682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -607,7 +607,7 @@ Transform:
   - {fileID: 1131912314}
   m_Father: {fileID: 373204476}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.591464, y: -30.789402, z: -1.1829989}
 --- !u!114 &526573284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ Transform:
   - {fileID: 311993174}
   m_Father: {fileID: 1913621959}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -65.85212, y: 138.3785, z: 0.12846686}
 --- !u!114 &577610604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -813,7 +813,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1913621959}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 83.21693, y: -90, z: 0}
 --- !u!114 &695906867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1002,7 +1002,7 @@ Transform:
   - {fileID: 373204476}
   m_Father: {fileID: 1913621959}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 67.2094, y: -134.90839, z: -175.13686}
 --- !u!114 &1086069189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,7 +1049,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 526573283}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -42.04923, y: -89.99999, z: -83.21695}
 --- !u!114 &1131912315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1096,7 +1096,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1744161806}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -42.04923, y: -89.99999, z: -83.21695}
 --- !u!114 &1196388135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1144,7 +1144,7 @@ Transform:
   - {fileID: 2048773299}
   m_Father: {fileID: 1913621959}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 42.512367, y: -134.68924, z: 135.65886}
 --- !u!114 &1229482664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1191,7 +1191,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1707052483}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -83.21695}
 --- !u!114 &1303244734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1330,6 +1330,7 @@ GameObject:
   - component: {fileID: 1528304188}
   - component: {fileID: 1528304187}
   - component: {fileID: 1528304186}
+  - component: {fileID: 7958968221915988649}
   m_Layer: 0
   m_Name: mesh_animation_butterfly_fly_still_01
   m_TagString: Untagged
@@ -1395,6 +1396,67 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 1
+--- !u!137 &7958968221915988649
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528304185}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e2cb7a464a360a244a8988a2ed6807d0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: a5746c5eb30ce3a4da2a722fd73619e8, type: 3}
+  m_Bones:
+  - {fileID: 1724699431}
+  - {fileID: 107177005}
+  - {fileID: 1913621959}
+  - {fileID: 695906866}
+  - {fileID: 494790080}
+  - {fileID: 577610603}
+  - {fileID: 311993174}
+  - {fileID: 1744161806}
+  - {fileID: 1229482663}
+  - {fileID: 1086069188}
+  - {fileID: 373204476}
+  - {fileID: 526573283}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1724699431}
+  m_AABB:
+    m_Center: {x: -0.0678619, y: 0.010138633, z: -0.0003617406}
+    m_Extent: {x: 0.07049371, y: 0.05327802, z: 0.05650851}
+  m_DirtyAABB: 0
 --- !u!1 &1629419371
 GameObject:
   m_ObjectHideFlags: 0
@@ -1425,7 +1487,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 175726728}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -83.21695}
 --- !u!114 &1629419373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1520,7 +1582,7 @@ Transform:
   - {fileID: 1303244733}
   m_Father: {fileID: 507613681}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3.4576023, y: -32.819283, z: 5.6021047}
 --- !u!114 &1707052484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1568,7 +1630,7 @@ Transform:
   - {fileID: 107177005}
   m_Father: {fileID: 61806270}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -71.900276}
 --- !u!114 &1724699432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1616,7 +1678,7 @@ Transform:
   - {fileID: 1196388134}
   m_Father: {fileID: 311993174}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.48979795, y: -27.51633, z: -1.1348542}
 --- !u!114 &1744161807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1715,7 +1777,7 @@ Transform:
   - {fileID: 494790080}
   m_Father: {fileID: 107177005}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.4415444e-15, y: -180, z: -152.59097}
 --- !u!114 &1913621960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1872,7 +1934,7 @@ Transform:
   - {fileID: 175726728}
   m_Father: {fileID: 1229482663}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 3.2883112, y: -34.067513, z: 4.2937226}
 --- !u!114 &2048773300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1899,7 +1961,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2095853390}
   - component: {fileID: 2095853389}
-  - component: {fileID: 2095853388}
   m_Layer: 0
   m_Name: mesh_animation_butterfly_fly_01
   m_TagString: Untagged
@@ -1938,22 +1999,3 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 1
---- !u!95 &2095853388
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095853387}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2262ec1386133f340a916d9c4ba0ef9e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
