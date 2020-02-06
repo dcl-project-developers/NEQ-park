@@ -1,0 +1,224 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 483,
+			"max": [ 0.5673671, 0.7633653, -0.2051826 ],
+			"min": [ -0.5673671, 0.4903367, -0.4474839 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 5796,
+			"componentType": 5126,
+			"count": 483,
+			"max": [ 0.9622611, 0.9952709, 0.9719415 ],
+			"min": [ -0.962261, -0.8903519, -0.9741664 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 483,
+			"max": [ 0.5349829, 0.7487056 ],
+			"min": [ 0.4157104, 0.4543855 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 483,
+			"max": [ 8, 8, 8, 9 ],
+			"min": [ 1, 1, 0, 0 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 483,
+			"max": [ 0.9985955, 0.4999894, 0.1954215, 0.02266463 ],
+			"min": [ 0.4577752, 0.001404476, 0, 0 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 7728,
+			"componentType": 5126,
+			"count": 483,
+			"max": [ 0.9921601, 0.9925547, 0.9923038, 1 ],
+			"min": [ -0.967411, -0.982972, -0.9861705, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 540,
+			"max": [ 366 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 1080,
+			"componentType": 5123,
+			"count": 540,
+			"max": [ 482 ],
+			"min": [ 367 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 36936,
+			"uri": "entity110596.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 2160,
+			"target": 34963,
+			"byteOffset": 34776
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3864,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11592,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 3864
+		},
+		{
+			"buffer": 0,
+			"byteLength": 15456,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 15456
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3864,
+			"byteStride": 8,
+			"byteOffset": 30912
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Pig_Albedo.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.013, 0.004836, 0.004836, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Outline"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.3066038, 0.3066038, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "mat_pig"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_mesh_pig_02_11242mesh_pig_02",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"JOINTS_0": 3,
+						"WEIGHTS_0": 4,
+						"TANGENT": 5
+					},
+					"indices": 6,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"JOINTS_0": 3,
+						"WEIGHTS_0": 4,
+						"TANGENT": 5
+					},
+					"indices": 7,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_mesh_pig_02",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
