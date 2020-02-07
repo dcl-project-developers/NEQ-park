@@ -140,12 +140,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Outline
-    second: {fileID: 2100000, guid: 46e08924b29474140b7556194562fe03, type: 2}
+    second: {fileID: 2100000, guid: 0a5cd8d57be6e4046bedc285145e8831, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mat_mountain_cat_01
-    second: {fileID: 2100000, guid: 3cb8338eee13a7c48bbc703b0465716f, type: 2}
+    second: {fileID: 2100000, guid: 232e54f58fe395344a413c95619992b1, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
