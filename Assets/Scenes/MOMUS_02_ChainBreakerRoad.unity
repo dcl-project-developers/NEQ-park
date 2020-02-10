@@ -2237,16 +2237,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65524006
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &42380291 stripped
@@ -3975,6 +3975,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 133042202}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &138285775
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &139584646
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6875,7 +6950,7 @@ MonoBehaviour:
   contactName: 
   email: 
   sceneToGlTFWiz: {fileID: 215698821}
-  m_GroundMaterial: {fileID: 1818820348}
+  m_GroundMaterial: {fileID: 138285775}
 --- !u!4 &215698823
 Transform:
   m_ObjectHideFlags: 0
@@ -7638,16 +7713,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6552399
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &258704807 stripped
@@ -8034,16 +8109,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 263d134da0dce9f4387c01bec95c2736, type: 2}
-    - target: {fileID: 802091137615558432, guid: ae490f08ff1a51a479d5a581506790b6,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2080797655639182429, guid: ae490f08ff1a51a479d5a581506790b6,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7847314243477528125, guid: ae490f08ff1a51a479d5a581506790b6,
         type: 3}
       propertyPath: m_Size.x
@@ -8053,6 +8118,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.z
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 802091137615558432, guid: ae490f08ff1a51a479d5a581506790b6,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080797655639182429, guid: ae490f08ff1a51a479d5a581506790b6,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ae490f08ff1a51a479d5a581506790b6, type: 3}
@@ -20097,6 +20172,26 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.24
       objectReference: {fileID: 0}
+    - target: {fileID: 8850377027181478823, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850377027181478823, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850377025974601889, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850377025974601889, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.13
+      objectReference: {fileID: 0}
     - target: {fileID: 8850377027298532082, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20126,26 +20221,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 5.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850377027181478823, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.73
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850377027181478823, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 5.74
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850377025974601889, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850377025974601889, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a275cce7629c0b46a0c6c2f92ac6945, type: 3}
@@ -23220,16 +23295,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6552405
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &788305214 stripped
@@ -24759,16 +24834,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65524
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &839088504 stripped
@@ -27797,16 +27872,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65524
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &1004386144 stripped
@@ -28076,16 +28151,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65524024
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &1017309606 stripped
@@ -40944,6 +41019,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.02
       objectReference: {fileID: 0}
+    - target: {fileID: 8850377027181478823, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8850377027181478823, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.82
+      objectReference: {fileID: 0}
     - target: {fileID: 8850377027298532082, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41003,16 +41088,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -83.138
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850377027181478823, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 2.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 8850377027181478823, guid: 5a275cce7629c0b46a0c6c2f92ac6945,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.82
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a275cce7629c0b46a0c6c2f92ac6945, type: 3}
@@ -41348,16 +41423,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65524
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &1519603335 stripped
@@ -44713,16 +44788,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6552403
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &1616323194 stripped
@@ -46466,16 +46541,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6552399
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &1662605457 stripped
@@ -47789,16 +47864,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65524
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &1715603047 stripped
@@ -52976,81 +53051,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1816657756}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1818820348
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &1821501504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59430,16 +59430,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.65524
       objectReference: {fileID: 0}
-    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
-        type: 3}
-      propertyPath: exportToCustomGTLF
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4765804215641763790, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79bde23398da1f442afda7c944e0a466, type: 2}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &2002112754 stripped
