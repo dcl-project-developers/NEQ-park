@@ -1,0 +1,298 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 763,
+			"max": [ 7.481599, 11.78953, 4.27753 ],
+			"min": [ -8.452128, -0.3087249, -5.476989 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 9156,
+			"componentType": 5126,
+			"count": 763,
+			"max": [ 0.9976572, 0.998937, 0.9959317 ],
+			"min": [ -0.9973168, -0.9989659, -0.9959317 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 763,
+			"max": [ 2.180785, 2.439061 ],
+			"min": [ -1.584399, -1.542012 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 763,
+			"max": [ 0.9976545, 0.9972208, 0.9986355, 1 ],
+			"min": [ -0.9995973, -0.9937963, -0.9998983, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 594,
+			"max": [ 187 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 1188,
+			"componentType": 5123,
+			"count": 600,
+			"max": [ 376 ],
+			"min": [ 188 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 2388,
+			"componentType": 5123,
+			"count": 1194,
+			"max": [ 762 ],
+			"min": [ 377 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 18312,
+			"componentType": 5126,
+			"count": 114,
+			"max": [ 0.6348051, 7.354903, 0.5776903 ],
+			"min": [ -0.796351, 0, -0.3942919 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 19680,
+			"componentType": 5126,
+			"count": 114,
+			"max": [ 1, 1, 0.9983911 ],
+			"min": [ -0.9908981, -1, -0.9976705 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 6104,
+			"componentType": 5126,
+			"count": 114,
+			"max": [ 0.875, 0.75 ],
+			"min": [ 0.125, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 12208,
+			"componentType": 5126,
+			"count": 114,
+			"max": [ 1, 0.07718014, 0.9547786, 1 ],
+			"min": [ -0.9990776, -0.04225006, -0.9104957, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 4776,
+			"componentType": 5123,
+			"count": 240,
+			"max": [ 113 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 47352,
+			"uri": "entity53726.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 5256,
+			"target": 34963,
+			"byteOffset": 42096
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7016,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 21048,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 7016
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14032,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 28064
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Tree_Wood_Albedo.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 1, 1, 0],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"alphaMode": "BLEND",
+			"alphaCutoff": 0.5,
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_totaltrans"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Tree_Wood_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "DefaultMaterial"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Tree_01_12796Tree_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 6,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Tree_01_collider_12798Tree_01_collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TEXCOORD_0": 9,
+						"TANGENT": 10
+					},
+					"indices": 11,
+					"material": 2,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Tree_01",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Tree_01_collider",
+			"mesh": 1,
+			"scale": [ 5.927536, 1, 5.927536],
+			"rotation": [0, 0.1305262, 0, -0.9914449]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

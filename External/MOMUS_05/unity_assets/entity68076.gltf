@@ -1,0 +1,244 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1228,
+			"max": [ -0.08526061, 11.207, -0.6235723 ],
+			"min": [ -15.41158, -8.498318E-11, -16.36123 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 14736,
+			"componentType": 5126,
+			"count": 1228,
+			"max": [ 0.9997777, 0.9960694, 0.9996728 ],
+			"min": [ -0.9999198, -1, -0.9986764 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1228,
+			"max": [ 4.654356, 2.2164 ],
+			"min": [ -4.005538, -1.250681 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 1228,
+			"max": [ 0.9995535, 0.9978226, 0.9999403, 1 ],
+			"min": [ -0.9992546, -0.9993499, -0.9999008, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 1779,
+			"max": [ 1227 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 29472,
+			"componentType": 5126,
+			"count": 1122,
+			"max": [ -0.08526061, 11.207, -0.6235723 ],
+			"min": [ -15.41158, -8.524774E-06, -16.36123 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 42936,
+			"componentType": 5126,
+			"count": 1122,
+			"max": [ 0.9997777, 0.9960694, 0.9996728 ],
+			"min": [ -0.9999198, -1, -0.9986764 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 9824,
+			"componentType": 5126,
+			"count": 1122,
+			"max": [ 4.634512, 2.198252 ],
+			"min": [ -3.985813, -1.270457 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 19648,
+			"componentType": 5126,
+			"count": 1122,
+			"max": [ 1, 0.9981248, 0.9998465, 1 ],
+			"min": [ -0.997382, -0.9995388, -0.9988343, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 3558,
+			"componentType": 5123,
+			"count": 1611,
+			"max": [ 1121 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 119580,
+			"uri": "entity68076.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 6780,
+			"target": 34963,
+			"byteOffset": 112800
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18800,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 56400,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 18800
+		},
+		{
+			"buffer": 0,
+			"byteLength": 37600,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 75200
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Rock_01_Albedo.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Rock_01_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.05724907, 1, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_collider_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Floating_Island_4_12198Terrain_Island_041",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Floating_Island_4_collider_12200Floating_Island_4_collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Terrain_Island_041",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Floating_Island_4_collider",
+			"mesh": 1
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
