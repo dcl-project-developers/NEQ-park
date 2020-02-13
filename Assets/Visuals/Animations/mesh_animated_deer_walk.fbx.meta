@@ -120,8 +120,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Outline
+    second: {fileID: 2100026, guid: be25393f2ee116144a90a426b4716d07, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mat_deer
-    second: {fileID: 2100000, guid: 8d918a579d3f3704285adb266a56d163, type: 2}
+    second: {fileID: 2100000, guid: 342d91be91ffc4148bb71369561c0c41, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

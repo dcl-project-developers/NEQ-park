@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 1073508098}
   - component: {fileID: 1073508097}
   m_Layer: 0
-  m_Name: Str_Ruins_02_Art
+  m_Name: Str_Ruins_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 86ab51188dbe34a4a9ff79e80077231a, type: 2}
-  - {fileID: 2100000, guid: 0a5cd8d57be6e4046bedc285145e8831, type: 2}
+  - {fileID: 2100000, guid: 86ab51188dbe34a4a9ff79e80077231a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
