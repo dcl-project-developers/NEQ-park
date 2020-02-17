@@ -42,7 +42,7 @@ namespace Dcl
                     }
                 }
 
-                //rdrr.enabled = rdrrVisible;
+                rdrr.enabled = rdrrVisible;
             }
         }
     }
