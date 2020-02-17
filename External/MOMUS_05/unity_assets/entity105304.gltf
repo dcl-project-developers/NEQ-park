@@ -1,0 +1,316 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 0,
+			"max": [ 0, 0, 0 ],
+			"min": [ 0, 0, 0 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 0,
+			"max": [ 0 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 8,
+			"max": [ 0.6232573, 0.6460602, 6.298908E-16 ],
+			"min": [ -0.6232573, -1.557043E-15, -6.298908E-16 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 96,
+			"componentType": 5126,
+			"count": 8,
+			"max": [ 0, 0, 1 ],
+			"min": [ 0, 0, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 8,
+			"max": [ 0.8661975, 0.8876024 ],
+			"min": [ 0.1898963, 0.5504237 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 8,
+			"max": [ -1, 0, 0, 1 ],
+			"min": [ -1, 0, 0, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 12,
+			"max": [ 7 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 180,
+			"max": [ 5.966667 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 180,
+			"max": [ 0, 0, 0 ],
+			"min": [ 0, 0, 0 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 180,
+			"max": [ 0, 0, 0, -0.9993908 ],
+			"min": [ -0.0348995, 0, 0, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 2160,
+			"componentType": 5126,
+			"count": 180,
+			"max": [ 1, 1.15, 1 ],
+			"min": [ 0.9, 1, 1 ],
+			"type": "VEC3"
+		}
+	],
+	"animations": [
+		{
+			"name": "Grass_01_b",
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 2,
+						"path": "translation"
+					}
+				},
+				{
+					"sampler": 1,
+					"target": {
+						"node": 2,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 2,
+					"target": {
+						"node": 2,
+						"path": "scale"
+					}
+				}
+			],
+			"samplers": [
+				{
+					"input": 7,
+					"interpolation": "LINEAR",
+					"output": 8
+				},
+				{
+					"input": 7,
+					"interpolation": "LINEAR",
+					"output": 9
+				},
+				{
+					"input": 7,
+					"interpolation": "LINEAR",
+					"output": 10
+				}
+			]
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 8328,
+			"uri": "entity105304.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 24,
+			"target": 34963,
+			"byteOffset": 1104
+		},
+		{
+			"buffer": 0,
+			"byteLength": 720,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 64,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 720
+		},
+		{
+			"buffer": 0,
+			"byteLength": 192,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 784
+		},
+		{
+			"buffer": 0,
+			"byteLength": 128,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 976
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4320,
+			"byteStride": 12,
+			"byteOffset": 1128
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2880,
+			"byteStride": 16,
+			"byteOffset": 5448
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Bush_01_Albedo.png"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 1, 1, 0],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"alphaMode": "BLEND",
+			"alphaCutoff": 0.5,
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_totaltrans"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 0.5860148, 0.4764151, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"alphaMode": "BLEND",
+			"alphaCutoff": 0.5,
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Bush_02_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Cube_10624Grass_01_b3",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0
+					},
+					"indices": 1,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Grass_01_b_12350Grass_01_b",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 2,
+						"NORMAL": 3,
+						"TEXCOORD_0": 4,
+						"TANGENT": 5
+					},
+					"indices": 6,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Grass_01_b3",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Grass_01_b",
+			"mesh": 1
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
