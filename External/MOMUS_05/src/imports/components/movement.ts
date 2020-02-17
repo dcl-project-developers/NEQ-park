@@ -29,7 +29,7 @@ class SimpleMove implements IMovement{
   speed: float   //Movement speed * frame time
   bOrientAxisToMovement: Boolean    //Orient the entityToMove rotation to the direction of the movement
   callback: Function   //Callback to call when targetLocation is reached
-
+  rotationAlpha: float
   constructor(targetLocation: Vector3, entityToMove: IEntity, speed: number, bOrientAxisToMovement: Boolean, bActive: Boolean, callback=function(){}){
       this.bActive = bActive
       this.targetLocation = targetLocation
@@ -37,6 +37,9 @@ class SimpleMove implements IMovement{
       this.speed = speed
       this.bOrientAxisToMovement = bOrientAxisToMovement
       this.callback = callback
+      this.rotationAlpha = 0
+      let rotation = entityToMove.getComponent(Transform).rotation
+      this.targetRotation = new Quaternion(rotation.x, rotation.y, rotation.z, rotation.w)
   }
   activate(speed: float = -1){
     if (speed>=0) {
@@ -56,7 +59,22 @@ class SimpleMove implements IMovement{
       let transform = this.entityToMove.getComponent(Transform)
       let distance = directionVectorBetweenTwoPoints(transform.position, this.targetLocation).scale(dt*this.speed)
       if (this.bOrientAxisToMovement) {
-          transform.lookAt(new Vector3(this.targetLocation.x, transform.position.y, this.targetLocation.z))
+          if (Math.abs(this.targetLocation.x-transform.position.x)>0.1 || Math.abs(this.targetLocation.z-transform.position.z)>0.1) {
+            var newRotation = Quaternion.LookRotation(directionVectorBetweenTwoPoints(
+              new Vector3(transform.position.x, 0 ,transform.position.z),
+              new Vector3(this.targetLocation.x, 0 ,this.targetLocation.z)
+            ));
+            if (Quaternion.Angle(this.targetRotation, newRotation)>1) {
+              this.targetRotation = newRotation
+              this.rotationAlpha = 0
+            }
+          }
+
+          transform.rotation = Quaternion.Slerp(transform.rotation,this.targetRotation, this.rotationAlpha)
+          if (this.rotationAlpha+0.1<1) {
+            this.rotationAlpha = this.rotationAlpha+0.02
+          }
+          else this.rotationAlpha = 1
       }
       transform.translate(distance)
       if (Vector3.Distance(transform.position, this.targetLocation)<=distance.length()) {
@@ -107,9 +125,26 @@ class AcelerateMove extends SimpleMove{
       if (this.speedAlpha<=0) {
         this.speed = 1
       }
+
+
       let distance = directionVectorBetweenTwoPoints(transform.position, this.targetLocation).scale(dt*this.speed)
       if (this.bOrientAxisToMovement) {
-          transform.lookAt(new Vector3(this.targetLocation.x, transform.position.y, this.targetLocation.z))
+          if (Math.abs(this.targetLocation.x-transform.position.x)>0.1 || Math.abs(this.targetLocation.z-transform.position.z)>0.1) {
+            var newRotation = Quaternion.LookRotation(directionVectorBetweenTwoPoints(
+              new Vector3(transform.position.x, 0 ,transform.position.z),
+              new Vector3(this.targetLocation.x, 0 ,this.targetLocation.z)
+            ));
+            if (Quaternion.Angle(this.targetRotation, newRotation)>1) {
+              this.targetRotation = newRotation
+              this.rotationAlpha = 0
+            }
+          }
+
+          transform.rotation = Quaternion.Slerp(transform.rotation,this.targetRotation, this.rotationAlpha)
+          if (this.rotationAlpha+0.1<1) {
+            this.rotationAlpha = this.rotationAlpha+0.01
+          }
+          else this.rotationAlpha = 1
       }
       transform.translate(distance)
       if (Vector3.Distance(transform.position, this.targetLocation)<=distance.length()) {
