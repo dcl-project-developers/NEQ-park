@@ -1,0 +1,9 @@
+node_modules/
+build/
+bin/
+
+.vs/
+Dockerfile
+src/*
+!src/imports
+!src/imports/*
