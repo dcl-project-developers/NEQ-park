@@ -1,4 +1,5 @@
 import { Text, Dialog, textDialogs, getTextData, getText} from '../jsonData/textsData'
+import { UpdateTimerWidgetSystem } from './systems'
 
 export enum SkipMode {
     Click = 0,
@@ -74,13 +75,65 @@ export class Widget{
   }
 }
 
+export class WidgetTextTimmer extends Widget{
+  textUI: UIText
+  startTime: number
+  updateSystem: UpdateTimerWidgetSystem
+  constructor(parentUI: Widget | UIShape){
+    var parent: UIShape;
+    if (parentUI as Widget) {
+      parent = (parentUI as Widget).container
+    }
+    else if(parentUI as UIShape){
+      parent = (parentUI as UIShape)
+    }
+
+    var container = new UIContainerRect(parent)
+    container.visible = false
+    container.vAlign = 'top'
+    container.hAlign = 'center'
+    container.width = '100%'
+    container.height = '20%'
+    //container.color = Color4.Gray()
+
+    super(parentUI, container)
+    this.textUI = new UIText(container)
+    this.textUI.vAlign = "top"
+    this.textUI.value = '00:00'
+    this.textUI.fontSize = 36
+    this.textUI.color = Color4.White()
+
+  }
+  show(bVisible: boolean){
+    super.show(bVisible)
+  }
+  start(bStart: boolean){
+    if (bStart) {
+      this.startTime = Date.now()
+      if (!this.updateSystem) {
+        this.updateSystem = new UpdateTimerWidgetSystem()
+        this.updateSystem.timerWidget = this
+      }
+      engine.addSystem(this.updateSystem)
+    }
+    else if(this.updateSystem){
+      engine.removeSystem(this.updateSystem)
+    }
+  }
+  update(){
+    this.textUI.value = millisToMillisAndSeconds(Date.now() - this.startTime)
+  }
+}
+
 export class WidgetTextBox extends Widget{
   textBoxImage: UIImage
   faceImage: UIImage
   textUI: UIText
   textData: TextProperties
   timeoutNextChar: any
+  bWritingText: boolean
   wgTextControlls: Widget
+  nAllowDelayText: boolean
   constructor(parentUI: Widget | UIShape, textData: TextProperties = null){
     var parent: UIShape;
     if (parentUI as Widget) {
@@ -94,7 +147,7 @@ export class WidgetTextBox extends Widget{
     container.vAlign = 'bottom'
     container.hAlign = 'center'
     container.width = '100%'
-    container.height = '30%'
+    container.height = '25%'
     container.positionY = "2%"
     //container.color = Color4.Gray()
     super(parentUI, container)
@@ -123,9 +176,11 @@ export class WidgetTextBox extends Widget{
     this.textUI.color = Color4.Black()
 
     this.textData = textData
+    this.nAllowDelayText = true
   }
   show(bVisible: boolean){
     if (this.timeoutNextChar) {
+      this.bWritingText = false
       clearTimeout(this.timeoutNextChar)
       this.timeoutNextChar = null
     }
@@ -136,6 +191,7 @@ export class WidgetTextBox extends Widget{
   }
   setText(text: TextProperties, bWithDelay: boolean = true){
       if (this.timeoutNextChar) {
+        this.bWritingText = false
         clearTimeout(this.timeoutNextChar)
         this.timeoutNextChar = null
       }
@@ -144,12 +200,12 @@ export class WidgetTextBox extends Widget{
       this.textUI.color = Color4.Black()
       this.textUI.vAlign = 'center'
       this.textUI.hAlign = 'left'
-      this.textUI.positionX = "2%"
+      this.textUI.positionX = "3%"
       this.textUI.positionY = getTextData(text.dialogId, text.textId).vAlign
       this.textUI.width = '95%'
       this.textUI.textWrapping = true
       this.textUI.adaptHeight = true
-      if (bWithDelay) {
+      if (bWithDelay && this.nAllowDelayText) {
         this.setTextWithDelay(getText(text.dialogId, text.textId, text.textLanguage))
       }
       else{
@@ -158,6 +214,7 @@ export class WidgetTextBox extends Widget{
   }
   setTextWithDelay(finalText: string, currentText: string = ""){
       if (currentText.length<finalText.length) {
+        this.bWritingText = true
         currentText = currentText + finalText.charAt(currentText.length)
         this.textUI.value = currentText
         let self = this
@@ -165,6 +222,7 @@ export class WidgetTextBox extends Widget{
           self.setTextWithDelay(finalText, currentText)
         }, 20);
       }
+      else { this.bWritingText = false }
 
   }
 
@@ -180,6 +238,7 @@ export class WidgetComfirm extends Widget{
   cancelFunction: Function
   comfirmDialog: TextProperties[]
   cancelDialog: TextProperties[]
+  inputInstance: Input
   constructor(parentUI: Widget | UIShape){
     var parent: UIShape;
     if (parentUI as Widget) {
@@ -193,7 +252,7 @@ export class WidgetComfirm extends Widget{
     container.vAlign = 'bottom'
     container.hAlign = 'center'
     container.width = '50%'
-    container.height = '30%'
+    container.height = '35%'
     container.positionY = "2%"
     //container.color = Color4.Gray()
     super(parentUI, container)
@@ -213,7 +272,7 @@ export class WidgetComfirm extends Widget{
     this.comfrimTextUI.vAlign = 'center'
     this.comfrimTextUI.hAlign = 'center'
     this.comfrimTextUI.color = Color4.Black()
-    this.comfrimTextUI.fontSize = 20
+    this.comfrimTextUI.fontSize = 28
     this.comfrimTextUI.width = "100%"
     this.comfrimTextUI.hTextAlign = 'center'
     this.comfrimTextUI.vTextAlign = 'center'
@@ -234,26 +293,33 @@ export class WidgetComfirm extends Widget{
     this.cancelTextUI.vAlign = 'center'
     this.cancelTextUI.hAlign = 'center'
     this.cancelTextUI.color = Color4.Black()
-    this.cancelTextUI.fontSize = 20
+    this.cancelTextUI.fontSize = 28
     this.cancelTextUI.width = "100%"
     this.cancelTextUI.hTextAlign = 'center'
     this.cancelTextUI.vTextAlign = 'center'
     this.cancelTextUI.positionY = "5%"
 
+    this.inputInstance = Input.instance
   }
   show(bVisible: boolean){
     if (bVisible) {
       let self = this
-      self.inputComfirmUnsubscribe = Input.instance.subscribe("BUTTON_DOWN", ActionButton.PRIMARY, false, e => {
-        self.show(false)
-        self.comfirmFunction()
-        self.unsubscribeInputs()
+      self.unsubscribeInputs()
+      self.inputComfirmUnsubscribe = this.inputInstance.subscribe("BUTTON_DOWN", ActionButton.PRIMARY, false, e => {
+        if(self.container.visible){
+          self.show(false)
+          self.comfirmFunction()
+          self.unsubscribeInputs()
+        }
+
       })
 
-      self.inputCancelUnsubscribe = Input.instance.subscribe("BUTTON_DOWN", ActionButton.SECONDARY, false, e => {
-        self.show(false)
-        self.cancelFunction()
-        self.unsubscribeInputs()
+      self.inputCancelUnsubscribe = this.inputInstance.subscribe("BUTTON_DOWN", ActionButton.SECONDARY, false, e => {
+        if(self.container.visible){
+          self.show(false)
+          self.cancelFunction()
+          self.unsubscribeInputs()
+        }
       })
     }
     else{
@@ -264,11 +330,11 @@ export class WidgetComfirm extends Widget{
   unsubscribeInputs(){
     if (this.inputComfirmUnsubscribe) {
       this.inputComfirmUnsubscribe()
-      this.inputComfirmUnsubscribe = null
+
     }
     if (this.inputCancelUnsubscribe) {
       this.inputCancelUnsubscribe()
-      this.inputCancelUnsubscribe = null
+
     }
   }
 
@@ -321,6 +387,9 @@ export class WidgetTalk extends WidgetTextBox{
         this.inputUnsubscribe()
         this.inputUnsubscribe = null
       }
+      if (this.comfirmWg && this.comfirmWg.container.visible) {
+        this.comfirmWg.show(false)
+      }
     }
     super.show(bVisible)
     if (bVisible) {
@@ -360,6 +429,7 @@ export class WidgetTalk extends WidgetTextBox{
   setTextWithDelay(finalText: string, currentText: string = ""){
       super.setTextWithDelay(finalText, currentText)
       if (currentText.length>=finalText.length) {
+        this.bWritingText = false
         clearTimeout(this.timeoutNextChar)
         this.timeoutNextChar = null
         this.setNextAutoSkip()
@@ -420,12 +490,13 @@ export class WidgetTalk extends WidgetTextBox{
       controlsWg.show(true)
     }
     self.inputUnsubscribe = self.inputInstance.subscribe("BUTTON_DOWN", ActionButton.POINTER, false, e => {
-      if (self.timeoutNextChar) {
+      if (self.bWritingText) {
+        self.bWritingText = false
         clearTimeout(self.timeoutNextChar)
         self.timeoutNextChar = null
         self.setText(self.textData, false)
       }
-      else if(!getTextData(this.textData.dialogId, this.textData.textId).bIsComfirmText){
+      else if(!getTextData(self.textData.dialogId, self.textData.textId).bIsComfirmText){
         self.showNextText()
       }
     })
@@ -482,17 +553,23 @@ export class WidgetTalk extends WidgetTextBox{
       if (text.comfirmFunction) {
         text.comfirmFunction()
       }
-      self.textData.textId = text.comfirmTextIndex
-      self.setText(self.textData)
+
       self.comfirmWg.unsubscribeInputs()
+      if (text.comfirmTextIndex>0) {
+        self.textData.textId = text.comfirmTextIndex
+        self.setText(self.textData)
+      }
+
     }
     self.comfirmWg.cancelFunction = function(){
       if (text.cancelFunction) {
         text.cancelFunction()
       }
-      self.textData.textId = text.cancelTextIndex
-      self.setText(self.textData)
       self.comfirmWg.unsubscribeInputs()
+      if (text.cancelTextIndex>0) {
+        self.textData.textId = text.cancelTextIndex
+        self.setText(self.textData)
+      }
     }
 
     this.comfirmWg.show(true)

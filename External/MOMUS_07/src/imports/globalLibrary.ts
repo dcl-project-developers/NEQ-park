@@ -7,3 +7,20 @@ function directionVectorBetweenTwoPoints(point1: Vector3, point2: Vector3) {
 function lerp (start: float, end: float, amt: float){
   return (1-amt)*start+amt*end
 }
+
+function randomIntFromInterval(min: number, max: number) { // min and max included
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+function millisToMinutesAndSeconds(millis: number) {
+  var minutes = Math.floor(millis / 60000)
+  var seconds = ((millis % 60000) / 1000)
+  var secondsString = seconds.toFixed(0)
+  return minutes + ":" + (seconds < 10 ? '0' : '') + secondsString;
+}
+
+function millisToMillisAndSeconds(millis: number) {
+  var seconds = Math.floor(millis / 1000)
+  var secondsString = seconds.toFixed(0)
+  return (seconds < 10 ? '0' : '') + secondsString + ":"+(millis % 1000);
+}

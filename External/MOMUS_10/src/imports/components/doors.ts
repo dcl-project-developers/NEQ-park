@@ -21,6 +21,10 @@ export class DoorComponent{
     callback: Function
     bInMovmement: Boolean
     waitTimeout: any
+    audioMove: AudioSource
+    audioStop: AudioSource
+    audioMoveEntity: IEntity
+    audioStopEntity: IEntity
     moveComponent: MoveComponent
     constructor(doorEntity: IEntity, closeSpeed: number, waitToClose: number, startClosed: Boolean, closeMoveVector: Vector3, callback: Function = function(){}){
         this.doorEntity = doorEntity
@@ -38,6 +42,7 @@ export class DoorComponent{
           this.bActive = false
           this.entityToMove.removeComponent(MoveComponent)
           self.bInMovmement = false
+          self.playAudioStop()
           self.callback()
         })
         if (startClosed) {
@@ -82,6 +87,7 @@ export class DoorComponent{
               if (!selfDoor.doorEntity.hasComponent(MoveComponent)) {
                 selfDoor.doorEntity.addComponent(selfDoor.moveComponent)
               }
+              selfDoor.playAudioMove()
               selfDoor.moveComponent.movement.bActive = true
             }, this.waitToClose*1000);
           }
@@ -89,6 +95,7 @@ export class DoorComponent{
             if (!selfDoor.doorEntity.hasComponent(MoveComponent)) {
               selfDoor.doorEntity.addComponent(selfDoor.moveComponent)
             }
+            selfDoor.playAudioMove()
             selfDoor.moveComponent.movement.bActive = true
           }
         }
@@ -123,6 +130,7 @@ export class DoorComponent{
               if (!selfDoor.doorEntity.hasComponent(MoveComponent)) {
                 selfDoor.doorEntity.addComponent(selfDoor.moveComponent)
               }
+              selfDoor.playAudioMove()
               selfDoor.moveComponent.movement.bActive = true
             }, this.waitToClose*1000);
           }
@@ -130,11 +138,46 @@ export class DoorComponent{
             if (!selfDoor.doorEntity.hasComponent(MoveComponent)) {
               selfDoor.doorEntity.addComponent(selfDoor.moveComponent)
             }
+            selfDoor.playAudioMove()
             selfDoor.moveComponent.movement.bActive = true
           }
 
         }
         this.bIsClosed = true
       }
+    }
+    setAudio(audioMoveClip: AudioClip, audioStopClip: AudioClip){
+      if (!this.audioMoveEntity) {
+        this.audioMoveEntity = new Entity()
+        this.audioMoveEntity.setParent(this.doorEntity)
+      }
+      if (!this.audioStopEntity) {
+        this.audioStopEntity = new Entity()
+        this.audioStopEntity.setParent(this.doorEntity)
+      }
+      this.audioMove = new AudioSource(audioMoveClip)
+      this.audioMove.loop = true
+      this.audioMoveEntity.addComponentOrReplace(this.audioMove)
+
+      this.audioStop = new AudioSource(audioStopClip)
+      this.audioStop.loop = false
+      this.audioStopEntity.addComponentOrReplace(this.audioStop)
+    }
+    playAudioMove(){
+      if (this.audioStop) {
+        this.audioStop.playing = false
+      }
+      if (this.audioMove) {
+        this.audioMove.playing = true
+      }
+    }
+    playAudioStop(){
+      if (this.audioMove) {
+        this.audioMove.playing = false
+      }
+      if (this.audioStop) {
+        this.audioStop.playing = true
+      }
+
     }
 }

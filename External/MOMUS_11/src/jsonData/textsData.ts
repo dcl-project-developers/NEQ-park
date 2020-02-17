@@ -23,21 +23,21 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "Welcome Traveler!",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "Good to talk to someone else today",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
-            en: "You're here for the treasure, don't you?",
+            en: "You're here for the treasure, aren’t you?",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
           bIsComfirmText: true,
           comfirmTextIndex: 4,
@@ -47,7 +47,7 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "No??? Well, there is a great treasure at the final chamber of this Tomb, but it is full of traps.",
           },
-          fontSize: 40,
+          fontSize: 28,
           vAlign: "0%",
           bEndDialog: true
         },
@@ -55,46 +55,51 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "HOHOHO I knew it! I can see a younger version of myself in your eyes.",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "I can help you reach to the final chamber if you like.",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "But it would require some MANA you know. Maybe you can enter for free but you won't get any score.",
           },
-          fontSize: 30,
+          fontSize: 26,
           vAlign: "0%",
           comfirmText: {
             en: "E: 10 MANA",
-            fontSize: 16,
+            fontSize: 19,
           },
           cancelText: {
             en: "F: Try free",
-            fontSize: 16,
+            fontSize: 20,
           },
           bIsComfirmText: true,
-          comfirmTextIndex: 7,
-          cancelTextIndex: 7
+          comfirmTextIndex: -1,
+          cancelTextIndex: -1,
+          bEndDialog: true
         },
+      ]
+    },
+    {
+      texts:[
         {
           text: {
             en: "Great, get ready pal, tomb chasers like me, are fast even in death!",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "and I won't be slowing down for ya",
           },
-          fontSize: 40,
+          fontSize: 26,
           vAlign: "0%",
         },
         {
@@ -121,7 +126,7 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "C'mon C'mon",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
           bEndDialog: true
         },
@@ -129,7 +134,7 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "Speed up!",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
           bEndDialog: true
         },
@@ -137,7 +142,7 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "IEEEEEEEEEE!",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
           bEndDialog: true
         },
@@ -145,7 +150,7 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "Don't get lost!",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
       ]
@@ -158,21 +163,21 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "Hey I think you are lost, let's meet at the entrance.",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "Whaaaaaaaat, be more careful next time.",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "You're not the first person lost in here.",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
       ]
@@ -184,35 +189,35 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "iiiiiiiiiiiiiuaaaarrrrrghhhuuffffffff",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "That was a great chase wasn't it?",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "I'm glad you made it here alive!",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
           text: {
             en: "I never thought I would see the final chamber lighten up and working, thank you!",
           },
-          fontSize: 40,
+          fontSize: 34,
           vAlign: "0%",
         },
         {
           text: {
             en: "If you're up to another one, let's meet at the entrance!",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
       ]
@@ -266,7 +271,7 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "I heard a polygonal mind created this place, whatever that is.",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
@@ -287,7 +292,7 @@ export const textDialogs: Dialog[] = [
           text: {
             en: "HAHAHAHA you're trying to get the treasure???? HAHAHAHA",
           },
-          fontSize: 40,
+          fontSize: 36,
           vAlign: "0%",
         },
         {
@@ -310,6 +315,33 @@ export const textDialogs: Dialog[] = [
           },
           fontSize: 40,
           vAlign: "0%",
+        },
+      ]
+    },
+    //Mana payment error
+    {
+      texts:[
+        {
+          text: {
+            en: "It seems that there is a problem with you MANA payment",
+          },
+          fontSize: 36,
+          vAlign: "0%",
+        },
+        {
+          text: {
+            en: "Check if your metamask account it's ready",
+          },
+          fontSize: 40,
+          vAlign: "0%",
+        },
+        {
+          text: {
+            en: "If not, don't worry, you can always play the free mode",
+          },
+          fontSize: 36,
+          vAlign: "0%",
+          bEndDialog: true
         },
       ]
     },
