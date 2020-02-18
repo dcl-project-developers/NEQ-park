@@ -1390,6 +1390,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &47263114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47263105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &47263115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47263105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &50985284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1846,6 +1874,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &64503816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64503807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &64503817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64503807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &64807850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2121,7 +2177,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -2254,7 +2315,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -2286,6 +2352,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &70893818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 70893814}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &70893819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70893818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &71777000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2376,7 +2461,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -2671,7 +2761,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -3219,7 +3314,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -4566,6 +4666,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &131600852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131600843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &131600853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131600843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &137831473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5206,7 +5334,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -5339,7 +5472,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -6417,7 +6555,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -7084,6 +7227,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &204406410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204406401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &204406411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204406401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &212528335
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7369,7 +7540,12 @@ PrefabInstance:
     - target: {fileID: 7925769067020812633, guid: a21e4e59765e9804d9e0cfe25498037b,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925769067020812633, guid: a21e4e59765e9804d9e0cfe25498037b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Rock_02_donut
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a21e4e59765e9804d9e0cfe25498037b, type: 3}
@@ -7487,7 +7663,7 @@ MonoBehaviour:
   contactName: 
   email: 
   sceneToGlTFWiz: {fileID: 215698821}
-  m_GroundMaterial: {fileID: 1537816368}
+  m_GroundMaterial: {fileID: 491823628}
 --- !u!4 &215698823
 Transform:
   m_ObjectHideFlags: 0
@@ -7957,7 +8133,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -8081,6 +8262,16 @@ PrefabInstance:
     - target: {fileID: 5856902461647180614, guid: 7a1af2d8674f23e42881436f789257f2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Path_04_yellow_grass
+      objectReference: {fileID: 0}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8623,7 +8814,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -8655,6 +8851,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &253352506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 253352502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &253352507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253352506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &254362442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8792,6 +9007,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: 
 --- !u!1001 &261777085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10963,6 +11180,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &311045698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311045689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &311045699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311045689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &312018438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11053,7 +11298,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -11611,7 +11861,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -12025,7 +12280,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -12057,6 +12317,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &329794024 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 329794020}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &329794025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329794024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &331578120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12551,7 +12830,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -12684,7 +12968,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -13202,7 +13491,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -13351,7 +13645,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -13983,7 +14282,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -14577,7 +14881,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -15043,7 +15352,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -15192,7 +15506,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -15325,7 +15644,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -15357,6 +15681,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &411170558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 411170554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &411170559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411170558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &412927945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17999,6 +18342,81 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!21 &491823628
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &492962317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18094,7 +18512,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -19194,7 +19617,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -19507,7 +19935,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -19893,7 +20326,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -20172,7 +20610,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -20204,6 +20647,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &579001568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 579001564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &579001569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579001568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &583271167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20362,7 +20824,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -20394,6 +20861,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &583334921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 583334917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &583334922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583334921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &583510521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21191,7 +21677,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -21613,7 +22104,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -22388,7 +22884,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -22420,6 +22921,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &649183694 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 649183690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &649183695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649183694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &655724443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22819,7 +23339,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -23170,7 +23695,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -23639,6 +24169,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &677692761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677692752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &677692762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677692752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &680605189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24444,6 +25002,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &708515260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708515251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &708515261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708515251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &709990658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24539,7 +25125,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -25379,6 +25970,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &739866918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739866909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &739866919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739866909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &744891205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25537,7 +26156,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -25569,6 +26193,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &745974084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 745974080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &745974085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745974084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &747641788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26010,7 +26653,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -26042,6 +26690,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &772414678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 772414674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &772414679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772414678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &777339675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26290,7 +26957,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -28224,7 +28896,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -28256,6 +28933,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &846440240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 846440236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &846440241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846440240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &846487683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28351,7 +29047,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -28601,7 +29302,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -28633,6 +29339,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &848288871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 848288867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &848288872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848288871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &850642393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28712,7 +29437,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -28744,6 +29474,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &850642397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 850642393}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &850642398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850642397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &850789514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28973,7 +29722,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -29242,6 +29996,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &856996448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856996439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &856996449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856996439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &859080399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29562,7 +30344,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -29594,6 +30381,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &871061955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 871061951}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &871061956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871061955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &872288000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29673,7 +30479,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -29705,6 +30516,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &872288004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 872288000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &872288005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872288004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &872726623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29863,7 +30693,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -29895,6 +30730,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &875106474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 875106470}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &875106475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875106474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &877807658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30889,6 +31743,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &902767834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902767825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &902767835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902767825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &903632756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31528,6 +32410,16 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7161704
       objectReference: {fileID: 0}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Path_04_yellow_grass
+      objectReference: {fileID: 0}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &911654738 stripped
@@ -31937,7 +32829,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -32171,7 +33068,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -32685,7 +33587,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -33014,7 +33921,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -33046,6 +33958,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &939763545 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 939763541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &939763546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939763545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &940352851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34018,7 +34949,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -35124,7 +36060,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -35486,7 +36427,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -35800,7 +36746,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -35832,6 +36783,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1002837528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1002837524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1002837529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002837528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1004041260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36270,7 +37240,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -36302,6 +37277,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1018801285 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1018801281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1018801286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018801285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1024524523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36381,7 +37375,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -36413,6 +37412,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1024524527 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1024524523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1024524528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024524527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1025337168
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38090,6 +39108,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1067468647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067468638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1067468648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067468638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1068424600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38317,7 +39363,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -38349,6 +39400,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1074979742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1074979738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1074979743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074979742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1076867043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38974,7 +40044,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -40468,7 +41543,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -40808,7 +41888,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -42090,7 +43175,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -44177,6 +45267,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1228579037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228579028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1228579038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228579028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1230377454
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44506,6 +45624,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1241275896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1241275892}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1241275897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241275896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1243994863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44841,6 +45978,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Path_04_yellow_grass
+      objectReference: {fileID: 0}
+    - target: {fileID: 540779544159822444, guid: 7a1af2d8674f23e42881436f789257f2,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a1af2d8674f23e42881436f789257f2, type: 3}
 --- !u!4 &1250050178 stripped
@@ -45084,7 +46231,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -45391,7 +46543,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -45540,7 +46697,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -45952,6 +47114,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1276523739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276523730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1276523740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276523730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1278079370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47079,6 +48269,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1288167359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288167350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1288167360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288167350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1291149238
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47802,7 +49020,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -47834,6 +49057,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1318008243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1318008239}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1318008244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318008243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1320694223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48318,7 +49560,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -48350,6 +49597,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1334327103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1334327099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1334327104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334327103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1337155671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48665,7 +49931,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -49667,7 +50938,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -51145,7 +52421,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -51660,7 +52941,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -51692,6 +52978,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1451471947 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1451471943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1451471948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451471947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1452240610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51771,7 +53076,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -51803,6 +53113,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1452240614 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1452240610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1452240615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452240614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1452443490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51898,7 +53227,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -52621,7 +53955,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -52653,6 +53992,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1464591162 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1464591158}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464591163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464591162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1467633372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52732,7 +54090,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -52764,6 +54127,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1467633376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1467633372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1467633377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467633376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1468047491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52843,7 +54225,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -52875,6 +54262,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1468047495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1468047491}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1468047496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468047495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1468450273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53284,7 +54690,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -53850,7 +55261,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -53983,7 +55399,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -55348,6 +56769,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1536631226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536631217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1536631227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536631217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1537519706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55427,81 +56876,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1537519706}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1537816368
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &1541241742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55784,6 +57158,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1544107086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544107077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1544107087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544107077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1545513764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56002,7 +57404,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -56034,6 +57441,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1549018210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1549018206}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1549018211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549018210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1550538697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56293,7 +57719,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -56325,6 +57756,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1560036466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1560036462}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1560036467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560036466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1564362360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56404,7 +57854,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -56436,6 +57891,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1564362364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1564362360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1564362365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564362364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1576971035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56531,7 +58005,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -56938,7 +58417,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -56970,6 +58454,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1586477009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1586477005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1586477010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586477009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1590313179
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57253,7 +58756,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -57285,6 +58793,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1591784846 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1591784842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1591784847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591784846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1595715996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57582,7 +59109,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -57614,6 +59146,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1604023363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1604023359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1604023364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604023363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1604768235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58684,7 +60235,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -58716,6 +60272,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1657879780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1657879776}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1657879781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657879780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1659292587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59029,7 +60604,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -59571,7 +61151,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -59864,7 +61449,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -60627,6 +62217,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1725409992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725409983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1725409993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725409983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1725804799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61126,7 +62744,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -61345,7 +62968,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -61377,6 +63005,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1732306965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1732306961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1732306966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732306965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1733457626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62225,7 +63872,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -62369,7 +64021,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -62657,7 +64314,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -62806,7 +64468,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -63619,7 +65286,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -63914,7 +65586,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -64047,7 +65724,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -64079,6 +65761,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1808558581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1808558577}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1808558582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808558581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1812208982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64393,7 +66094,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -64425,6 +66131,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1814125583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1814125579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1814125584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814125583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1815798742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65040,7 +66765,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -65747,6 +67477,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1863930282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863930273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1863930283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863930273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1866231589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65962,6 +67720,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &1866231599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866231590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &1866231600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866231590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1869405063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66725,7 +68511,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -69768,7 +71559,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -69800,6 +71596,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1979026921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1979026917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1979026922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979026921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &1979049174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70420,7 +72235,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -70794,7 +72614,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -70927,7 +72752,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -70959,6 +72789,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &1997077235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 1997077231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1997077236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997077235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &2001749280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71256,7 +73105,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -71288,6 +73142,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &2005779826 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 2005779822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2005779827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005779826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &2009471444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71843,7 +73716,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_mountain_path_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -73236,7 +75114,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -73268,6 +75151,25 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!1 &2075800251 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1538333345, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+    type: 3}
+  m_PrefabInstance: {fileID: 2075800247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2075800252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075800251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 0
 --- !u!1001 &2075921792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73975,7 +75877,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift_03
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -74466,7 +76373,12 @@ PrefabInstance:
     - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355378940816509763, guid: ef7d79ec57318c1499ac6c9b968448ed,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Terrain_Amount_01_river_clift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef7d79ec57318c1499ac6c9b968448ed, type: 3}
@@ -74833,6 +76745,34 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
+--- !u!114 &2114886571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114886562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_waterfx_art_anim
+--- !u!114 &2114886572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114886562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &2120546228
 PrefabInstance:
   m_ObjectHideFlags: 0
