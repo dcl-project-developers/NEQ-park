@@ -83,6 +83,19 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 9
+--- !u!114 &6233001025965011402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963416538847032297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1001 &1343916814729270642
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -363,7 +376,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a62f2cc8cc87dad4d9bc684d4fbe5bc8, type: 2}
     - target: {fileID: 2300000, guid: b9db4101fa3a488429ddaa1b0a6d0d6c, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9db4101fa3a488429ddaa1b0a6d0d6c, type: 3}

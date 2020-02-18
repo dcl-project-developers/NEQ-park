@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6823774633347757550}
   - component: {fileID: 6408095041046491409}
   - component: {fileID: 690710767037052044}
+  - component: {fileID: 37835353766596202}
   m_Layer: 0
   m_Name: red_eyes_anim
   m_TagString: Untagged
@@ -97,6 +98,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &37835353766596202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2760845561312115707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f521f7917ace34ba57ed2a9b166a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bLateLoadMesh: 1
 --- !u!1 &2997053321563045526
 GameObject:
   m_ObjectHideFlags: 0
