@@ -1,0 +1,275 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 638,
+			"max": [ 1.230663, 0.04767311, 0.03486213 ],
+			"min": [ -1.215704, -0.6531807, -0.03486213 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 7656,
+			"componentType": 5126,
+			"count": 638,
+			"max": [ 0.9622664, 0.9238806, 1 ],
+			"min": [ -0.9622664, -0.9238808, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 638,
+			"max": [ 2.915675, 3.137311 ],
+			"min": [ -1.98632, -2.137311 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 638,
+			"max": [ 1, 0.9238812, 1, 1 ],
+			"min": [ -1, -0.9238814, -1, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 492,
+			"max": [ 265 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 984,
+			"componentType": 5123,
+			"count": 600,
+			"max": [ 637 ],
+			"min": [ 266 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 15312,
+			"componentType": 5126,
+			"count": 32,
+			"max": [ 1.230663, 0, 0.75 ],
+			"min": [ -1.215704, -0.7855726, -0.75 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 15696,
+			"componentType": 5126,
+			"count": 32,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 5104,
+			"componentType": 5126,
+			"count": 32,
+			"max": [ 0.875, 1 ],
+			"min": [ 0.125, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 10208,
+			"componentType": 5126,
+			"count": 32,
+			"max": [ 0, 0.3660473, 1, 1 ],
+			"min": [ -1, -0.3621849, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 2184,
+			"componentType": 5123,
+			"count": 60,
+			"max": [ 31 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 34464,
+			"uri": "entity83792n.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 2304,
+			"target": 34963,
+			"byteOffset": 32160
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5360,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 16080,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 5360
+		},
+		{
+			"buffer": 0,
+			"byteLength": 10720,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 21440
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Wood_Clean_Albedo.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Wood_Clean_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0, 0, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Black_Outline_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.05724907, 1, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_collider_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Fence_01_11494Fence_01_Railing",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Fence_01_collider_11496Fence_01_collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 6,
+						"NORMAL": 7,
+						"TEXCOORD_0": 8,
+						"TANGENT": 9
+					},
+					"indices": 10,
+					"material": 2,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Fence_01_Railing",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Fence_01_collider",
+			"mesh": 1,
+			"scale": [ 1, 1, 0.06426714]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

@@ -1083,6 +1083,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2285535
       objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
 --- !u!4 &39252920 stripped
@@ -1366,6 +1371,11 @@ PrefabInstance:
     - target: {fileID: 1700965296, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4228998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
@@ -4390,7 +4400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &161472211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6752,6 +6763,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.7832924
       objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
 --- !u!4 &233452181 stripped
@@ -8266,6 +8282,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -7.8470006
       objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
 --- !u!4 &290275305 stripped
@@ -9549,6 +9570,20 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 9
+--- !u!114 &349538967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349538964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 1
+  export_custom_GTLF_name: 
 --- !u!1001 &352091972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10453,6 +10488,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 377948284}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &382414647
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &382994334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11233,7 +11343,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: 
 --- !u!1001 &412456222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16482,7 +16593,7 @@ MonoBehaviour:
   contactName: 
   email: 
   sceneToGlTFWiz: {fileID: 580832155}
-  m_GroundMaterial: {fileID: 1876295927}
+  m_GroundMaterial: {fileID: 382414647}
 --- !u!4 &580832157
 Transform:
   m_ObjectHideFlags: 0
@@ -16874,7 +16985,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &585873670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17634,6 +17746,11 @@ PrefabInstance:
     - target: {fileID: 1700965296, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2285535
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
@@ -18692,6 +18809,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 635068594}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &635068596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 781026237, guid: a885d017ca014b3458b7ea7b2a769b2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 635068594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &635068597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635068596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Cube_Grass_01_a_Art
 --- !u!1001 &637087452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19870,6 +20007,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 674787519}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &674787521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 781026237, guid: a885d017ca014b3458b7ea7b2a769b2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 674787519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &674787522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674787521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Cube_Grass_01_a_Art
 --- !u!1001 &680078789
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22022,6 +22179,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 774037181}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &774037183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 781026237, guid: a885d017ca014b3458b7ea7b2a769b2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 774037181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &774037184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774037183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Cube_Grass_01_a_Art
 --- !u!1001 &782792372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22555,7 +22732,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &797359929
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22894,6 +23072,11 @@ PrefabInstance:
     - target: {fileID: 1700965296, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2085001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
@@ -27653,7 +27836,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &1007162595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28563,7 +28747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &1038813237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28930,6 +29115,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.3719
       objectReference: {fileID: 0}
+    - target: {fileID: 5963416538844769577, guid: 34afc07483c27a243aee0c2d457a8cdb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34afc07483c27a243aee0c2d457a8cdb, type: 3}
 --- !u!1 &1042734352 stripped
@@ -29237,6 +29427,11 @@ PrefabInstance:
     - target: {fileID: 1700965296, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
@@ -29548,7 +29743,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: 
 --- !u!1001 &1056192990
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31488,6 +31684,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1134499559}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1134499561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 781026237, guid: a885d017ca014b3458b7ea7b2a769b2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1134499559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1134499562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134499561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Cube_Grass_01_a_Art
 --- !u!1001 &1135140964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32165,6 +32381,11 @@ PrefabInstance:
     - target: {fileID: 1700965296, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4228998
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
@@ -35333,6 +35554,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1326678029}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1326678031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 781026237, guid: a885d017ca014b3458b7ea7b2a769b2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1326678029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1326678032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326678031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Cube_Grass_01_a_Art
 --- !u!1001 &1328508067
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37579,7 +37820,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &1439090415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39411,7 +39653,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &1517933185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43859,7 +44102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: 
 --- !u!1001 &1663636854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44396,6 +44640,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1694351961}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1694351963 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 781026237, guid: a885d017ca014b3458b7ea7b2a769b2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1694351961}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1694351964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694351963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Cube_Grass_01_a_Art
 --- !u!1001 &1694735669
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44631,6 +44895,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1714423618}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1714423620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 781026237, guid: a885d017ca014b3458b7ea7b2a769b2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1714423618}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1714423621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714423620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Cube_Grass_01_a_Art
 --- !u!1001 &1716465265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45849,7 +46133,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: 
 --- !u!1001 &1770251174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46835,6 +47120,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2283996
       objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
 --- !u!4 &1806519571 stripped
@@ -47081,6 +47371,11 @@ PrefabInstance:
     - target: {fileID: 1700965296, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.0099078
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Cube_Grass_01_b_Art
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
@@ -48350,7 +48645,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &1843675019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49401,81 +49697,6 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 9
---- !u!21 &1876295927
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &1876978426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52057,7 +52278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &1973517934
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52644,7 +52866,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &2007525619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53488,7 +53711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: cube_water_anim_01
 --- !u!1001 &2021030704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55107,6 +55331,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2086890289}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2086890291 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 781026237, guid: a885d017ca014b3458b7ea7b2a769b2a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2086890289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2086890292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086890291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Cube_Grass_01_a_Art
 --- !u!1001 &2087088665
 PrefabInstance:
   m_ObjectHideFlags: 0

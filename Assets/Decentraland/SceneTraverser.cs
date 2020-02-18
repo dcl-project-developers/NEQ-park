@@ -28,7 +28,8 @@ namespace Dcl
     public class ResourceRecorder
     {
         public List<string> importedModules = new List<string>();
-        public Boolean blateLoadGTLF = false;
+        public Boolean blateLoadGTLF = true;
+        public Boolean blateLoadInit = false;
         public String lateGTLFlines = "";
         public List<string> exportedModels = new List<string>();
         public List<string> exportedModelsFileName = new List<string>();
@@ -117,7 +118,7 @@ namespace Dcl
                     "    }\n" +
                     "}\n"*/
                     //);
-                if (_resourceRecorder.blateLoadGTLF)
+                if (_resourceRecorder.blateLoadGTLF && _resourceRecorder.blateLoadInit)
                 {
                     exportStr.AppendLine("import { loadInit } from \"./init\"\n\n");
                 }
@@ -151,11 +152,14 @@ engine.addSystem(new AutoPlayUnityAudio())
 
                 // Append this at the end of script so other scripts can import it and set some execution order
                 //exportStr.AppendLine("export default {}");
-                if (_resourceRecorder.blateLoadGTLF)
+                if (_resourceRecorder.blateLoadGTLF && _resourceRecorder.lateGTLFlines!="")
                 {
                     exportStr.AppendLine("setTimeout(() => {");
                     exportStr.Append(_resourceRecorder.lateGTLFlines);
-                    exportStr.AppendLine("setTimeout(() => {loadInit()}, 1000);");
+                    if (_resourceRecorder.blateLoadInit)
+                    {
+                        exportStr.AppendLine("setTimeout(() => {loadInit()}, 1000);");
+                    }
                     exportStr.AppendLine("}, 3000);\n");
                 }
                 var modulesArray = _resourceRecorder.importedModules.ToArray();
@@ -249,7 +253,32 @@ engine.addSystem(new AutoPlayUnityAudio())
 
                     }
                     doorNames += "]";
-                    exportStr.AppendFormat(SetTrigger, tra.position.x, tra.position.y, tra.position.z, scale.x, scale.y, scale.z, (int)triggerObject.doorBehavior, doorNames);
+                    exportStr.AppendFormat(SetTriggerDoor, tra.position.x, tra.position.y, tra.position.z, scale.x, scale.y, scale.z, (int)triggerObject.doorBehavior, doorNames);
+                    //exportStr.AppendFormat(AddEntity, entityName);
+                    return;
+                }
+
+                trigger_script triggerGeneralObject = (tra.gameObject.GetComponent("trigger_script") as trigger_script);
+                if (triggerGeneralObject)
+                {
+                    if (resourceRecorder.importedModules.IndexOf("Trigger, triggersInfo") < 0)
+                    {
+                        resourceRecorder.importedModules.Add("Trigger, triggersInfo");
+                    }
+
+                    string triggerTags = "[";
+
+                    for (int i = 0; i < triggerGeneralObject.triggerTags.Length; i++)
+                    {
+                        triggerTags += "\"" + triggerGeneralObject.triggerTags[i] + "\"";
+                        if (i + 1 < triggerGeneralObject.triggerTags.Length)
+                        {
+                            triggerTags += ",";
+                        }
+
+                    }
+                    triggerTags += "]";
+                    exportStr.AppendFormat(SetTrigger, tra.position.x, tra.position.y, tra.position.z, scale.x, scale.y, scale.z, triggerTags);
                     //exportStr.AppendFormat(AddEntity, entityName);
                     return;
                 }
@@ -576,7 +605,8 @@ engine.addSystem(new AutoPlayUnityAudio())
         private const string SetPathFollower = "{0}.addComponent(new PathFollower(\"{1}\", {2})) \n";
         private const string SetDoor = "{0}.addComponent(new DoorComponent({0}, {1}, {2}, {3}, new Vector3({4}, {5}, {6}))) \n";
 
-        private const string SetTrigger = "trapDoorTriggersInfo.push(new TrapDoorTrigger(new Vector3({0}, {1}, {2}), new Vector3({3}, {4}, {5}), {6}, {7}))\n";
+        private const string SetTriggerDoor = "trapDoorTriggersInfo.push(new TrapDoorTrigger(new Vector3({0}, {1}, {2}), new Vector3({3}, {4}, {5}), {6}, {7}))\n";
+        private const string SetTrigger = "triggersInfo.push(new Trigger(new Vector3({0}, {1}, {2}), new Vector3({3}, {4}, {5}), {6}))\n";
         private const string SetElevatorButton = "{0}.addComponent(new ElevatorButton({0}, {1}, \"{2}\")) \n";
 
         private const string SetNFT = "{0}.addComponent(new NFTdata({0}, \"{1}\", \"{2}\")) \n";
@@ -802,7 +832,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                     if (exportStr != null)
                     {
                         string gltfPath = string.Format("unity_assets/{0}.gltf", GetIdentityName(tra.gameObject));
-                        if (resourceRecorder.blateLoadGTLF)
+                        if (resourceRecorder.blateLoadGTLF && (tra.gameObject.GetComponent<lateLoadMesh_script>() != null && tra.gameObject.GetComponent<lateLoadMesh_script>().bLateLoadMesh))
                         {
                             resourceRecorder.lateGTLFlines += string.Format(SetGLTFshape, entityName, gltfPath);
                         }
@@ -834,7 +864,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                             fileModenName = resourceRecorder.exportedModelsFileName[index];
                         }
                         string gltfPath = string.Format("unity_assets/{0}.gltf", fileModenName);
-                        if (resourceRecorder.blateLoadGTLF)
+                        if (resourceRecorder.blateLoadGTLF && (tra.gameObject.GetComponent<lateLoadMesh_script>() != null && tra.gameObject.GetComponent<lateLoadMesh_script>().bLateLoadMesh))
                         {
                             resourceRecorder.lateGTLFlines += string.Format(SetGLTFshape, entityName, gltfPath);
                         }
