@@ -780,7 +780,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                 if (PrefabUtility.GetPrefabInstanceHandle(tra.gameObject) != null && tra.gameObject.GetComponent<MeshFilter>() != null && tra.gameObject.GetComponent<MeshFilter>().sharedMesh)
                 {
                     bIsOvewritePrefab = false;
-                    if (tra.gameObject.GetComponent<ovewriteMesh_script>() != null && tra.gameObject.GetComponent<ovewriteMesh_script>().exportToCustomGTLF)
+                    if (tra.gameObject.GetComponent<ovewriteMesh_script>() != null && tra.gameObject.GetComponent<ovewriteMesh_script>().exportToSingleGTLF)
                     {
                         bIsOvewritePrefab = true;
                     }
@@ -820,7 +820,12 @@ engine.addSystem(new AutoPlayUnityAudio())
                 }
                 else
                 {
-                    int index = resourceRecorder.exportedModels.IndexOf(tra.gameObject.GetComponent<MeshFilter>().sharedMesh.name);
+                    string name = tra.gameObject.GetComponent<MeshFilter>().sharedMesh.name;
+                    if (tra.gameObject.GetComponent<ovewriteMesh_script>() && tra.gameObject.GetComponent<ovewriteMesh_script>().export_custom_GTLF_name != null && tra.gameObject.GetComponent<ovewriteMesh_script>().export_custom_GTLF_name != "")
+                    {
+                        name = tra.gameObject.GetComponent<ovewriteMesh_script>().export_custom_GTLF_name;
+                    }
+                    int index = resourceRecorder.exportedModels.IndexOf(name);
                     if (exportStr != null)
                     {
                         string fileModenName = GetIdentityName(tra.gameObject);
@@ -846,7 +851,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                         if (index == -1)
                         {
                             resourceRecorder.exportedModelsFileName.Add(GetIdentityName(tra.gameObject));
-                            resourceRecorder.exportedModels.Add(tra.gameObject.GetComponent<MeshFilter>().sharedMesh.name);
+                            resourceRecorder.exportedModels.Add(name);
                             resourceRecorder.meshesToExport.Add(tra.gameObject);
                         }
 
