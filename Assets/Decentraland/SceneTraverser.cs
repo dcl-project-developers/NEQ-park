@@ -978,7 +978,8 @@ engine.addSystem(new AutoPlayUnityAudio())
                     exportStr.AppendFormat("{0}.getComponent(TextShape).height = {1}\n", entityName, height);
                 }
 
-                var fontSize = tm.fontSize == 0 ? 13f * 38f : tm.fontSize * 38f;
+                //var fontSize = tm.fontSize == 0 ? 13f * 38f : tm.fontSize * 38f;
+                var fontSize = tm.fontSize;
                 exportStr.AppendFormat("{0}.getComponent(TextShape).fontSize = {1}\n", entityName, fontSize);
 
                 switch (tm.anchor)
