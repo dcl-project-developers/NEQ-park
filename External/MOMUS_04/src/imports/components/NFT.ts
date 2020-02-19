@@ -8,7 +8,7 @@ export class NFTdata{
     this.entity = entity
     this.smartContract = smartContract
     this.tokenId = tokenId
-    const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.Blue())
+    const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.Black())
     entity.addComponent(shapeComponent)
   }
 }
