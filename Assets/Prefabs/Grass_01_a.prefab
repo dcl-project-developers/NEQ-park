@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 781026238}
   - component: {fileID: 2981831927327754042}
   - component: {fileID: 353089628660400414}
+  - component: {fileID: 441449909755783897}
   m_Layer: 0
   m_Name: Grass_01_a
   m_TagString: Untagged
@@ -95,35 +96,21 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &5472637924246843770
+--- !u!114 &441449909755783897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3040052113906615012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  visible: 1
-  withCollision: 0
-  m_primitiveType: 6
-  dclNodeType: 10
---- !u!114 &5364640847663387267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3040052113906615012}
+  m_GameObject: {fileID: 781026237}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Grass_01_a_prefab
 --- !u!95 &6202494104940093343
 Animator:
   serializedVersion: 3
@@ -143,6 +130,37 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5364640847663387267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3040052113906615012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: Grass_01_a_prefab
+--- !u!114 &5472637924246843770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3040052113906615012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 10
 --- !u!1001 &3040052113906713668
 PrefabInstance:
   m_ObjectHideFlags: 0
