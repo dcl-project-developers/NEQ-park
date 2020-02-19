@@ -981,48 +981,51 @@ engine.addSystem(new AutoPlayUnityAudio())
                 //var fontSize = tm.fontSize == 0 ? 13f * 38f : tm.fontSize * 38f;
                 var fontSize = tm.fontSize;
                 exportStr.AppendFormat("{0}.getComponent(TextShape).fontSize = {1}\n", entityName, fontSize);
-
+                
+                    switch (tm.alignment)
+                {
+                    case TextAlignment.Left:
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).hTextAlign = \"{1}\"\n", entityName, "left");
+                        break;
+                    case TextAlignment.Center:
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).hTextAlign = \"{1}\"\n", entityName,"center");
+                        break;
+                    case TextAlignment.Right:
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).hTextAlign = \"{1}\"\n", entityName, "right");
+                        break;
+                }
                 switch (tm.anchor)
                 {
                     case TextAnchor.UpperLeft:
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,
-                            "\"right\"");
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).vAlign = \"{1}\"\n", entityName,
-                            "\"bottom\"");
+                        //exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,"right");
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).vTextAlign = \"{1}\"\n", entityName,"top");
                         break;
                     case TextAnchor.UpperCenter:
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).vAlign = \"{1}\"\n", entityName,
-                            "\"bottom\"");
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).vTextAlign = \"{1}\"\n", entityName, "top");
                         break;
                     case TextAnchor.UpperRight:
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,
-                            "\"left\"");
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).vAlign = \"{1}\"\n", entityName,
-                            "\"bottom\"");
+                        //exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,"left");
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).vTextAlign = \"{1}\"\n", entityName, "top");
                         break;
                     case TextAnchor.MiddleLeft:
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,
-                            "\"right\"");
+                        //exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,"right");
                         break;
                     case TextAnchor.MiddleCenter:
 
                         break;
                     case TextAnchor.MiddleRight:
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,
-                            "\"left\"");
+                        //exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,"left");
                         break;
                     case TextAnchor.LowerLeft:
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,
-                            "\"right\"");
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).vAlign = \"{1}\"\n", entityName, "\"top\"");
+                        //exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName, "right");
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).vTextAlign = \"{1}\"\n", entityName, "bottom");
                         break;
                     case TextAnchor.LowerCenter:
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).vAlign = \"{1}\"\n", entityName, "\"top\"");
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).vTextAlign = \"{1}\"\n", entityName, "bottom");
                         break;
                     case TextAnchor.LowerRight:
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,
-                            "\"left\"");
-                        exportStr.AppendFormat("{0}.getComponent(TextShape).vAlign = \"{1}\"\n", entityName, "\"top\"");
+                        //exportStr.AppendFormat("{0}.getComponent(TextShape).hAlign = \"{1}\"\n", entityName,"left");
+                        exportStr.AppendFormat("{0}.getComponent(TextShape).vTextAlign = \"{1}\"\n", entityName, "bottom");
                         break;
                 }
             }
