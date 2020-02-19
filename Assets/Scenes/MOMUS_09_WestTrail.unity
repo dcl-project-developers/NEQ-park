@@ -480,6 +480,11 @@ PrefabInstance:
     - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
         type: 3}
       propertyPath: exportToCustomGTLF
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: exportToSingleGTLF
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1958,7 +1963,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -9618,6 +9628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exportToCustomGTLF: 0
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: 
 --- !u!1001 &191790645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17957,7 +17969,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -22551,7 +22568,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_hill
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -23992,15 +24014,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 249921829, guid: 5e7a981df6470514c90dfc547662933d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 253.52
+      value: 253.556
       objectReference: {fileID: 0}
     - target: {fileID: 249921829, guid: 5e7a981df6470514c90dfc547662933d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.63
+      value: 8.614
       objectReference: {fileID: 0}
     - target: {fileID: 249921829, guid: 5e7a981df6470514c90dfc547662933d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.77
+      value: 13.561
       objectReference: {fileID: 0}
     - target: {fileID: 249921829, guid: 5e7a981df6470514c90dfc547662933d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -32446,7 +32468,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -34357,15 +34384,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 249921829, guid: 5e7a981df6470514c90dfc547662933d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 264.94
+      value: 265.001
       objectReference: {fileID: 0}
     - target: {fileID: 249921829, guid: 5e7a981df6470514c90dfc547662933d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.63
+      value: 8.601
       objectReference: {fileID: 0}
     - target: {fileID: 249921829, guid: 5e7a981df6470514c90dfc547662933d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.77
+      value: 13.404
       objectReference: {fileID: 0}
     - target: {fileID: 249921829, guid: 5e7a981df6470514c90dfc547662933d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -56245,7 +56272,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_hill
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -59188,7 +59220,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -69428,81 +69465,6 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
---- !u!21 &1460655456
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &1461931613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70134,7 +70096,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -72840,7 +72807,7 @@ MonoBehaviour:
   contactName: 
   email: 
   sceneToGlTFWiz: {fileID: 1532818936}
-  m_GroundMaterial: {fileID: 1460655456}
+  m_GroundMaterial: {fileID: 1847589044}
 --- !u!4 &1532818938
 Transform:
   m_ObjectHideFlags: 0
@@ -77541,7 +77508,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -82282,7 +82254,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -83203,7 +83180,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -85128,7 +85110,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -87643,7 +87630,12 @@ PrefabInstance:
     - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238110605903288089, guid: f18ee3e4b13f4a24087ceed282cd1f9d,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Floating_Island_01_cave_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f18ee3e4b13f4a24087ceed282cd1f9d, type: 3}
@@ -90043,6 +90035,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1844406766}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1847589044
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &1847600897
 PrefabInstance:
   m_ObjectHideFlags: 0
