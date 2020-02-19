@@ -3231,6 +3231,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2223
       objectReference: {fileID: 0}
+    - target: {fileID: 1431909360, guid: 7aca7cab00b335e41be9a241ce7460f5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aca7cab00b335e41be9a241ce7460f5, type: 3}
 --- !u!1 &133145638 stripped
@@ -5526,6 +5530,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Grass_01_b
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
 --- !u!1001 &206207246
@@ -5737,7 +5751,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -8411,7 +8430,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -8855,6 +8879,16 @@ PrefabInstance:
     - target: {fileID: 1700965296, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6894
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: exportToCustomGTLF
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735274897761983220, guid: 0d6794d3cc2fa6f47b2afac47b042504,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Grass_01_b
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d6794d3cc2fa6f47b2afac47b042504, type: 3}
@@ -20965,6 +20999,81 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 9
+--- !u!21 &832485692
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &834425428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24911,6 +25020,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.68681467
       objectReference: {fileID: 0}
+    - target: {fileID: 1431909360, guid: 7aca7cab00b335e41be9a241ce7460f5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aca7cab00b335e41be9a241ce7460f5, type: 3}
 --- !u!1 &995129888 stripped
@@ -28665,7 +28778,7 @@ MonoBehaviour:
   contactName: 
   email: 
   sceneToGlTFWiz: {fileID: 1149068899}
-  m_GroundMaterial: {fileID: 2098345637}
+  m_GroundMaterial: {fileID: 832485692}
 --- !u!4 &1149068901
 Transform:
   m_ObjectHideFlags: 0
@@ -29765,11 +29878,13 @@ Transform:
   - {fileID: 1208676322}
   - {fileID: 240313524}
   - {fileID: 1227150901}
+  - {fileID: 985020335}
   - {fileID: 1395146334}
   - {fileID: 987767235}
   - {fileID: 646501769}
   - {fileID: 217826734}
   - {fileID: 1378506494}
+  - {fileID: 1415880435}
   - {fileID: 1598031075}
   - {fileID: 1929891529}
   - {fileID: 451157587}
@@ -29781,10 +29896,10 @@ Transform:
   - {fileID: 1815457687}
   - {fileID: 422728024}
   - {fileID: 1446127517}
-  - {fileID: 985020335}
+  - {fileID: 232602183}
   - {fileID: 343848896}
   - {fileID: 1918062580}
-  - {fileID: 1415880435}
+  - {fileID: 948255867}
   - {fileID: 2121866134}
   - {fileID: 115248598}
   - {fileID: 1713077437}
@@ -29799,10 +29914,8 @@ Transform:
   - {fileID: 421967968}
   - {fileID: 641584357}
   - {fileID: 542648942}
-  - {fileID: 232602183}
   - {fileID: 444436053}
   - {fileID: 1561784894}
-  - {fileID: 948255867}
   - {fileID: 2104487913}
   - {fileID: 970986708}
   - {fileID: 374883144}
@@ -34153,7 +34266,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -38819,7 +38937,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -41795,6 +41918,10 @@ PrefabInstance:
     - target: {fileID: 738959318, guid: 7aca7cab00b335e41be9a241ce7460f5, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6767937
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431909360, guid: 7aca7cab00b335e41be9a241ce7460f5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aca7cab00b335e41be9a241ce7460f5, type: 3}
@@ -47856,7 +47983,12 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -53377,81 +53509,6 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 10
---- !u!21 &2098345637
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &2099884614
 PrefabInstance:
   m_ObjectHideFlags: 0

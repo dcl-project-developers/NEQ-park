@@ -1,0 +1,244 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2484,
+			"max": [ 0.9520254, 2.510087, 0.7715676 ],
+			"min": [ -0.9560455, -0.002251472, -1.148826 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 29808,
+			"componentType": 5126,
+			"count": 2484,
+			"max": [ 0.9986082, 0.9997188, 0.9998939 ],
+			"min": [ -0.9993448, -0.9999905, -0.9997547 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2484,
+			"max": [ 0.9995857, 0.9802715 ],
+			"min": [ 0.006598651, 0.01596455 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2484,
+			"max": [ 0.9991311, 0.8634448, 0.9999601, 1 ],
+			"min": [ -0.9997572, -0.9370906, -0.9948833, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 2568,
+			"max": [ 2483 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 59616,
+			"componentType": 5126,
+			"count": 44,
+			"max": [ 0.9155051, 2.498256, 0.6832306 ],
+			"min": [ -0.9155051, 3.814697E-08, -1.147779 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 60144,
+			"componentType": 5126,
+			"count": 44,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 19872,
+			"componentType": 5126,
+			"count": 44,
+			"max": [ 0.875, 1 ],
+			"min": [ 0.125, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 39744,
+			"componentType": 5126,
+			"count": 44,
+			"max": [ 0, 0, 1, 1 ],
+			"min": [ -1, 0, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 5136,
+			"componentType": 5123,
+			"count": 66,
+			"max": [ 43 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 126612,
+			"uri": "entity89244n.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 5268,
+			"target": 34963,
+			"byteOffset": 121344
+		},
+		{
+			"buffer": 0,
+			"byteLength": 20224,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 60672,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 20224
+		},
+		{
+			"buffer": 0,
+			"byteLength": 40448,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 80896
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Statue_Lion_Albedo.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Statue_Lion_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.05724907, 1, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_collider_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Str_Ruins_02_10864Str_Ruins_02",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Str_Ruins_02_collider_10866Str_Ruins_02_collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Str_Ruins_02",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Str_Ruins_02_collider",
+			"mesh": 1
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
