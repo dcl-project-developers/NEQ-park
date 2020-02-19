@@ -4684,6 +4684,74 @@ entity54778n.getComponent(TextShape).fontSize = 3
 entity54778n.getComponent(TextShape).hTextAlign = "left"
 entity54778n.getComponent(TextShape).vTextAlign = "top"
 
+var entity56780n = new Entity("NFT_Text (4)")
+engine.addEntity(entity56780n)
+entity56780n.addComponent(new Transform({ position: new Vector3(19.05, 3.84, 9.65) }))
+entity56780n.getComponent(Transform).rotation.set(0, -0.3171804, 0, -0.9483652)
+entity56780n.getComponent(Transform).scale.set(1, 1, 1)
+
+var entity56776n = new Entity("Artist")
+entity56776n.setParent(entity56780n)
+entity56776n.addComponent(new Transform({ position: new Vector3(-1.65, -1.544, 0) }))
+entity56776n.getComponent(Transform).rotation.set(2.273737E-13, 2.273737E-13, 0.7071068, 0.7071068)
+entity56776n.getComponent(Transform).scale.set(1, 1, 1)
+entity56776n.addComponent(new TextShape())
+entity56776n.getComponent(TextShape).value = "Pindar"
+entity56776n.getComponent(TextShape).color = new Color3(0, 0, 0)
+entity56776n.getComponent(TextShape).width = 0.5354412
+entity56776n.getComponent(TextShape).height = 2
+entity56776n.getComponent(TextShape).fontSize = 3
+entity56776n.getComponent(TextShape).hTextAlign = "left"
+entity56776n.getComponent(TextShape).vTextAlign = "top"
+
+var entity56778n = new Entity("Title")
+entity56778n.setParent(entity56780n)
+entity56778n.addComponent(new Transform({ position: new Vector3(-1.32, 2.451, 0) }))
+entity56778n.getComponent(Transform).rotation.set(-3.095241E-13, 6.82121E-13, 2.086141E-07, 1)
+entity56778n.getComponent(Transform).scale.set(1, 1, 1)
+entity56778n.addComponent(new TextShape())
+entity56778n.getComponent(TextShape).value = "AI\ Portrait\ Painted\ \nby\ a\ Robot\ \#2"
+entity56778n.getComponent(TextShape).color = new Color3(0, 0, 0)
+entity56778n.getComponent(TextShape).width = 4.633002
+entity56778n.getComponent(TextShape).height = 1.360256
+entity56778n.getComponent(TextShape).fontSize = 3
+entity56778n.getComponent(TextShape).hTextAlign = "left"
+entity56778n.getComponent(TextShape).vTextAlign = "top"
+
+var entity56868n = new Entity("NFT_Text (5)")
+engine.addEntity(entity56868n)
+entity56868n.addComponent(new Transform({ position: new Vector3(10.08, 3.84, 9.72) }))
+entity56868n.getComponent(Transform).rotation.set(0, 0.3256909, 0, -0.9454763)
+entity56868n.getComponent(Transform).scale.set(1, 1, 1)
+
+var entity56870n = new Entity("Artist")
+entity56870n.setParent(entity56868n)
+entity56870n.addComponent(new Transform({ position: new Vector3(-1.61, -1.544, 0) }))
+entity56870n.getComponent(Transform).rotation.set(2.273737E-13, 2.273737E-13, 0.7071068, 0.7071068)
+entity56870n.getComponent(Transform).scale.set(1, 1, 1)
+entity56870n.addComponent(new TextShape())
+entity56870n.getComponent(TextShape).value = "Pindar"
+entity56870n.getComponent(TextShape).color = new Color3(0, 0, 0)
+entity56870n.getComponent(TextShape).width = 0.5281064
+entity56870n.getComponent(TextShape).height = 2
+entity56870n.getComponent(TextShape).fontSize = 3
+entity56870n.getComponent(TextShape).hTextAlign = "left"
+entity56870n.getComponent(TextShape).vTextAlign = "top"
+
+var entity56872n = new Entity("Title")
+entity56872n.setParent(entity56868n)
+entity56872n.addComponent(new Transform({ position: new Vector3(-1.25, 2.451, 0) }))
+entity56872n.getComponent(Transform).rotation.set(-3.095241E-13, 6.82121E-13, 2.086141E-07, 1)
+entity56872n.getComponent(Transform).scale.set(1, 1, 1)
+entity56872n.addComponent(new TextShape())
+entity56872n.getComponent(TextShape).value = "AI\ Imagined\ Portrait\nPainted\ by\ a\ Robot"
+entity56872n.getComponent(TextShape).color = new Color3(0, 0, 0)
+entity56872n.getComponent(TextShape).width = 4.884676
+entity56872n.getComponent(TextShape).height = 1.360257
+entity56872n.getComponent(TextShape).fontSize = 3
+entity56872n.getComponent(TextShape).hTextAlign = "left"
+entity56872n.getComponent(TextShape).vTextAlign = "top"
+
 setTimeout(() => {
 entity52942n.addComponent(new GLTFShape("unity_assets/entity52942n.gltf"))
 entity69146.addComponent(new GLTFShape("unity_assets/entity69146.gltf"))
