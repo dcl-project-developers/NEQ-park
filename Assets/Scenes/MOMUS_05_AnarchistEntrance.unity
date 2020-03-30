@@ -550,6 +550,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1b0245ecd8c940a1a4270fcb18133, type: 3}
+--- !u!1 &14218887 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119253158052973112, guid: bbd1b0245ecd8c940a1a4270fcb18133,
+    type: 3}
+  m_PrefabInstance: {fileID: 14218886}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &14218888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14218887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 9
 --- !u!1001 &19931332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1698,6 +1720,11 @@ PrefabInstance:
       propertyPath: exportToSingleGTLF
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b, type: 3}
 --- !u!4 &33846867 stripped
@@ -2349,6 +2376,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 42565520}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &42589526
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &43660976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3894,6 +3996,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1b0245ecd8c940a1a4270fcb18133, type: 3}
+--- !u!1 &96490805 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119253158052973112, guid: bbd1b0245ecd8c940a1a4270fcb18133,
+    type: 3}
+  m_PrefabInstance: {fileID: 96490804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &96490806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96490805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 9
 --- !u!1001 &97430557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4274,6 +4398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToSingleGTLF
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b, type: 3}
@@ -5556,7 +5685,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -8314,6 +8443,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1b0245ecd8c940a1a4270fcb18133, type: 3}
+--- !u!1 &209341853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119253158052973112, guid: bbd1b0245ecd8c940a1a4270fcb18133,
+    type: 3}
+  m_PrefabInstance: {fileID: 209341852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &209341854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209341853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 9
 --- !u!1001 &210154660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8551,6 +8702,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1b0245ecd8c940a1a4270fcb18133, type: 3}
+--- !u!1 &215450182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119253158052973112, guid: bbd1b0245ecd8c940a1a4270fcb18133,
+    type: 3}
+  m_PrefabInstance: {fileID: 215450181}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &215450183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215450182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 9
 --- !u!1001 &217590565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9524,7 +9697,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -13632,10 +13805,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1918218901}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -13691,6 +13860,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14958,7 +15131,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -15328,7 +15501,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -25701,7 +25874,7 @@ MonoBehaviour:
   contactName: 
   email: 
   sceneToGlTFWiz: {fileID: 580832155}
-  m_GroundMaterial: {fileID: 1238669056}
+  m_GroundMaterial: {fileID: 42589526}
 --- !u!4 &580832157
 Transform:
   m_ObjectHideFlags: 0
@@ -26895,10 +27068,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 224392419}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -26954,6 +27123,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (8)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -29139,7 +29312,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -32639,10 +32812,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1573313868}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (0)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -32698,6 +32867,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (0)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -35901,10 +36074,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 847898806}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -35960,6 +36129,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -36933,6 +37106,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToSingleGTLF
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b, type: 3}
@@ -41137,7 +41315,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -41670,10 +41848,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 841675560}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -41729,6 +41903,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (5)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -43575,7 +43753,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -44676,6 +44854,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToSingleGTLF
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b, type: 3}
@@ -47531,10 +47714,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 280355082}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -47590,6 +47769,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (4)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -50548,6 +50731,11 @@ PrefabInstance:
       propertyPath: exportToSingleGTLF
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b, type: 3}
 --- !u!4 &1138601190 stripped
@@ -51022,6 +51210,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1b0245ecd8c940a1a4270fcb18133, type: 3}
+--- !u!1 &1151509756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119253158052973112, guid: bbd1b0245ecd8c940a1a4270fcb18133,
+    type: 3}
+  m_PrefabInstance: {fileID: 1151509755}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1151509757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151509756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 9
 --- !u!1001 &1151666260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51102,7 +51312,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -52995,7 +53205,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -54010,81 +54220,6 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 1
---- !u!21 &1238669056
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &1242332971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54637,10 +54772,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 622395758}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -54696,6 +54827,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (6)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -57044,7 +57179,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -63933,7 +64068,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -65122,7 +65257,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -65412,10 +65547,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 608512814}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -65471,6 +65602,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (2)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -66771,6 +66906,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToSingleGTLF
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b, type: 3}
@@ -69843,7 +69983,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -73924,7 +74064,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -74041,7 +74181,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -78418,7 +78558,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -79504,7 +79644,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -91743,6 +91883,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1b0245ecd8c940a1a4270fcb18133, type: 3}
+--- !u!1 &1917567906 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119253158052973112, guid: bbd1b0245ecd8c940a1a4270fcb18133,
+    type: 3}
+  m_PrefabInstance: {fileID: 1917567905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1917567907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1917567906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 9
 --- !u!1 &1918218900
 GameObject:
   m_ObjectHideFlags: 0
@@ -92690,7 +92852,7 @@ PrefabInstance:
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
       propertyPath: export_custom_GTLF_name
-      value: Brick_Step_01_wood_01
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
         type: 3}
@@ -93172,6 +93334,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToSingleGTLF
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b, type: 3}
@@ -94458,6 +94625,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1b0245ecd8c940a1a4270fcb18133, type: 3}
+--- !u!1 &1982387747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119253158052973112, guid: bbd1b0245ecd8c940a1a4270fcb18133,
+    type: 3}
+  m_PrefabInstance: {fileID: 1982387746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1982387748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982387747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 9
 --- !u!1001 &1982420920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94915,6 +95104,11 @@ PrefabInstance:
       propertyPath: exportToSingleGTLF
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2893556903946149237, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c51db751b4889b4ab8c8c0c7fe2fc8b, type: 3}
 --- !u!4 &1987348024 stripped
@@ -94956,6 +95150,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: mesh_animatied_deer_walkpath_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1917023793177419405, guid: 0303545f5201f884ea86f9d1e01dde6d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1917023793177419407, guid: 0303545f5201f884ea86f9d1e01dde6d,
         type: 3}
@@ -96828,10 +97027,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 644116656}
     m_Modifications:
-    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
-      propertyPath: m_Name
-      value: Grass_01_a_Art (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -96887,6 +97082,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
+      propertyPath: m_Name
+      value: Grass_01_a_Art (7)
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 13031fcdbbdaf4d4f96818601418e082, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -103125,6 +103324,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbd1b0245ecd8c940a1a4270fcb18133, type: 3}
+--- !u!1 &2147257412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3119253158052973112, guid: bbd1b0245ecd8c940a1a4270fcb18133,
+    type: 3}
+  m_PrefabInstance: {fileID: 2147257411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2147257413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147257412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 9
 --- !u!1 &3717379143196204828 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3717379143196204828, guid: 912c5b3ea5f0e4e4ba9a789e7d14c153,
