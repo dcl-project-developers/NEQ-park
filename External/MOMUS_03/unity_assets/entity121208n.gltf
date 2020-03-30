@@ -1,0 +1,321 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 128,
+			"max": [ 0.2053491, 1.197126, 2.991517 ],
+			"min": [ -0.1946102, -1.197126, -2.991517 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 1536,
+			"componentType": 5126,
+			"count": 128,
+			"max": [ 1, 0.999909, 0.9993161 ],
+			"min": [ -1, -0.999909, -0.9993161 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 128,
+			"max": [ 0.9967728, 1 ],
+			"min": [ -0.00353241, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 128,
+			"max": [ 1, 0.6392404, 1, 1 ],
+			"min": [ -1, -0.6392416, -1, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 6,
+			"max": [ 3 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 12,
+			"componentType": 5123,
+			"count": 6,
+			"max": [ 7 ],
+			"min": [ 4 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 24,
+			"componentType": 5123,
+			"count": 168,
+			"max": [ 71 ],
+			"min": [ 8 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 360,
+			"componentType": 5123,
+			"count": 48,
+			"max": [ 95 ],
+			"min": [ 40 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 456,
+			"componentType": 5123,
+			"count": 48,
+			"max": [ 127 ],
+			"min": [ 96 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 6696,
+			"uri": "entity121208n.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 552,
+			"target": 34963,
+			"byteOffset": 6144
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1024,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3072,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 1024
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2048,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 4096
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Banner_BlockchainGaming_01.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Banner_Coinfest_01.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Light_ray_albedo.png"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Light_ray_emissive.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Banner_blockchain"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 1,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Banner_coinfest"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.2392157, 0.227451, 0.345098, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "MOMUS_Logo_01_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 2,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 0.3529412],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"alphaMode": "BLEND",
+			"alphaCutoff": 0.5,
+			"emissiveTexture" : {
+				"index" : 3,
+				"texCoord" : 0
+			},
+			"emissiveFactor": [0.9568627, 0.6713069, 0.5360435],
+			"doubleSided": false,
+			"name": "Light_ray_mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.4470588, 0.4470588, 0.6470588, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "MOMUS_Logo_02_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Banner_Momus_01_20908Banner_Momus_01 (4)",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 6,
+					"material": 2,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 7,
+					"material": 3,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 8,
+					"material": 4,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Banner_Momus_01 (4)",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"sampler": 0,
+			"source": 3
+		}
+	]
+}
