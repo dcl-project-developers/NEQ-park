@@ -11,165 +11,146 @@
 			"bufferView": 2,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2551,
-			"max": [ 1.611887, 2.778868, 1.832913 ],
-			"min": [ -1.805661, -0.2421939, -1.42275 ],
+			"count": 1066,
+			"max": [ 8.842456, 3.125217, 7.988384 ],
+			"min": [ -8.893315, -3.125218, -8.272958 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 30612,
+			"byteOffset": 12792,
 			"componentType": 5126,
-			"count": 2551,
-			"max": [ 0.9989943, 0.9997955, 0.9992796 ],
-			"min": [ -0.9996203, -0.9999095, -0.9998896 ],
+			"count": 1066,
+			"max": [ 0.9898931, 0.9999303, 0.994319 ],
+			"min": [ -0.9918704, -0.9999796, -0.9994042 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 1,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2551,
-			"max": [ 1.929129, 1.974647 ],
-			"min": [ -0.9231817, -0.9746463 ],
+			"count": 1066,
+			"max": [ 4.705249, 3.907429 ],
+			"min": [ -3.57431, -3.116804 ],
 			"type": "VEC2"
 		},
 		{
 			"bufferView": 3,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2551,
-			"max": [ 0.9746898, 0.9992136, 0.9999708, 1 ],
-			"min": [ -0.9999901, -0.9998049, -1, -1 ],
+			"count": 1066,
+			"max": [ 0.9964885, 0.9983267, 0.9999292, 1 ],
+			"min": [ -0.9664159, -0.9929681, -0.9964766, -1 ],
 			"type": "VEC4"
 		},
 		{
 			"bufferView": 0,
 			"byteOffset": 0,
 			"componentType": 5123,
-			"count": 1320,
-			"max": [ 1286 ],
+			"count": 1284,
+			"max": [ 698 ],
 			"min": [ 0 ],
 			"type": "SCALAR"
 		},
 		{
 			"bufferView": 0,
-			"byteOffset": 2640,
+			"byteOffset": 2568,
 			"componentType": 5123,
-			"count": 1278,
-			"max": [ 2508 ],
-			"min": [ 1287 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 5196,
-			"componentType": 5123,
-			"count": 42,
-			"max": [ 2550 ],
-			"min": [ 2509 ],
+			"count": 804,
+			"max": [ 1065 ],
+			"min": [ 699 ],
 			"type": "SCALAR"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 61224,
+			"byteOffset": 25584,
 			"componentType": 5126,
-			"count": 24,
-			"max": [ 0.75, 1.5, 0.75 ],
-			"min": [ -0.75, 0, -0.75 ],
+			"count": 88,
+			"max": [ 8.569852, 3.143064, 8.005456 ],
+			"min": [ -8.569852, -3.752206, -8.005456 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 61512,
+			"byteOffset": 26640,
 			"componentType": 5126,
-			"count": 24,
-			"max": [ 1, 0.9392008, 1 ],
-			"min": [ -1, -1, -1 ],
+			"count": 88,
+			"max": [ 0.8610389, 1, 0.8755812 ],
+			"min": [ -0.8767014, -1, -0.8755812 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 1,
-			"byteOffset": 20408,
+			"byteOffset": 8528,
 			"componentType": 5126,
-			"count": 24,
+			"count": 88,
 			"max": [ 0.875, 1 ],
 			"min": [ 0.125, 0 ],
 			"type": "VEC2"
 		},
 		{
 			"bufferView": 3,
-			"byteOffset": 40816,
+			"byteOffset": 17056,
 			"componentType": 5126,
-			"count": 24,
-			"max": [ 0, 0.3433685, 1, 1 ],
-			"min": [ -1, 0, -1, 1 ],
+			"count": 88,
+			"max": [ 1, 0.2040399, 0.979345, 1 ],
+			"min": [ -1, -0.2040399, -1, 1 ],
 			"type": "VEC4"
 		},
 		{
 			"bufferView": 0,
-			"byteOffset": 5280,
+			"byteOffset": 4176,
 			"componentType": 5123,
-			"count": 36,
-			"max": [ 23 ],
+			"count": 240,
+			"max": [ 87 ],
 			"min": [ 0 ],
 			"type": "SCALAR"
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 128952,
-			"uri": "entity46022.bin"
+			"byteLength": 60048,
+			"uri": "entity42090.bin"
 		}
 	],
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 5352,
+			"byteLength": 4656,
 			"target": 34963,
-			"byteOffset": 123600
+			"byteOffset": 55392
 		},
 		{
 			"buffer": 0,
-			"byteLength": 20600,
+			"byteLength": 9232,
 			"target": 34962,
 			"byteStride": 8,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
-			"byteLength": 61800,
+			"byteLength": 27696,
 			"target": 34962,
 			"byteStride": 12,
-			"byteOffset": 20600
+			"byteOffset": 9232
 		},
 		{
 			"buffer": 0,
-			"byteLength": 41200,
+			"byteLength": 18464,
 			"target": 34962,
 			"byteStride": 16,
-			"byteOffset": 82400
+			"byteOffset": 36928
 		}
 	],
 	"images": [
 		{
-			"uri": "Assets/Visuals/Materials/Tree_Wood_Albedo.jpg"
+			"uri": "Assets/Visuals/Materials/Rock_01_Albedo.jpg"
 		},
 		{
-			"uri": "Assets/Visuals/Materials/Mushroom_Clair_Albedo.jpg"
+			"uri": "Assets/Visuals/Materials/Grass_Albedo.jpg"
 		}
 	],
 	"materials": [
-		{
-			"pbrMetallicRoughness": {
-				"baseColorFactor": [0, 0, 0, 1],
-				"metallicFactor": 0,
-				"roughnessFactor": 1
-			},
-			"emissiveFactor": [0, 0, 0],
-			"doubleSided": false,
-			"name": "Black_Outline_Mat"
-		},
 		{
 			"pbrMetallicRoughness": {
 				"baseColorTexture" : {
@@ -182,7 +163,7 @@
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "Tree_Wood_Mat"
+			"name": "Rock_01_Mat"
 		},
 		{
 			"pbrMetallicRoughness": {
@@ -196,22 +177,22 @@
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "Mushroom_Clair_Mat"
+			"name": "Grass_Mat"
 		},
 		{
 			"pbrMetallicRoughness": {
-				"baseColorFactor": [1, 1, 1, 1],
+				"baseColorFactor": [0.05724907, 1, 0, 1],
 				"metallicFactor": 0,
 				"roughnessFactor": 0.5
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "Default-Material"
+			"name": "_collider_Mat"
 		}
 	],
 	"meshes": [
 		{
-			"name": "mesh_Tree_Trunk_01_19154Tree_Trunk_01",
+			"name": "mesh_Floating_Island_02_17962Terrain_Island_02 (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -234,32 +215,21 @@
 					"indices": 5,
 					"material": 1,
 					"mode": 4
-				},
-				{
-					"attributes": {
-						"POSITION": 0,
-						"NORMAL": 1,
-						"TEXCOORD_0": 2,
-						"TANGENT": 3
-					},
-					"indices": 6,
-					"material": 2,
-					"mode": 4
 				}
 			]
 		},
 		{
-			"name": "mesh_Tree_Trunk_01_collider_19152Tree_Trunk_01_collider",
+			"name": "mesh_Floating_Island_02_collider_17964Floating_Island_02_collider",
 			"primitives": [
 				{
 					"attributes": {
-						"POSITION": 7,
-						"NORMAL": 8,
-						"TEXCOORD_0": 9,
-						"TANGENT": 10
+						"POSITION": 6,
+						"NORMAL": 7,
+						"TEXCOORD_0": 8,
+						"TANGENT": 9
 					},
-					"indices": 11,
-					"material": 3,
+					"indices": 10,
+					"material": 2,
 					"mode": 4
 				}
 			]
@@ -273,7 +243,7 @@
 			]
 		},
 		{
-			"name": "node_Tree_Trunk_01",
+			"name": "node_Terrain_Island_02 (1)",
 			"mesh": 0,
 			"children": [
 				2
@@ -281,9 +251,8 @@
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		},
 		{
-			"name": "node_Tree_Trunk_01_collider",
-			"mesh": 1,
-			"scale": [ 1.431968, 1.878438, 1.431968]
+			"name": "node_Floating_Island_02_collider",
+			"mesh": 1
 		}
 	],
 	"samplers": [

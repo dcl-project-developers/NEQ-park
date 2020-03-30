@@ -11,165 +11,155 @@
 			"bufferView": 2,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2551,
-			"max": [ 1.611887, 2.778868, 1.832913 ],
-			"min": [ -1.805661, -0.2421939, -1.42275 ],
+			"count": 118,
+			"max": [ 0.2446955, 0.7604893, 0.2322884 ],
+			"min": [ -0.1339968, -7.867813E-08, -0.195623 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 30612,
+			"byteOffset": 1416,
 			"componentType": 5126,
-			"count": 2551,
-			"max": [ 0.9989943, 0.9997955, 0.9992796 ],
-			"min": [ -0.9996203, -0.9999095, -0.9998896 ],
+			"count": 118,
+			"max": [ 0.9985465, 0.9903604, 0.9775899 ],
+			"min": [ -0.9963763, -0.9892453, -0.9658113 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 1,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2551,
-			"max": [ 1.929129, 1.974647 ],
-			"min": [ -0.9231817, -0.9746463 ],
+			"count": 118,
+			"max": [ 2.549931, 1.622366 ],
+			"min": [ -1.575969, -1.336714 ],
 			"type": "VEC2"
 		},
 		{
 			"bufferView": 3,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2551,
-			"max": [ 0.9746898, 0.9992136, 0.9999708, 1 ],
-			"min": [ -0.9999901, -0.9998049, -1, -1 ],
+			"count": 118,
+			"max": [ 0.9247105, 0.9887399, 0.9979215, 1 ],
+			"min": [ -0.9718233, -0.9588224, -0.8450655, -1 ],
 			"type": "VEC4"
 		},
 		{
 			"bufferView": 0,
 			"byteOffset": 0,
 			"componentType": 5123,
-			"count": 1320,
-			"max": [ 1286 ],
+			"count": 135,
+			"max": [ 34 ],
 			"min": [ 0 ],
 			"type": "SCALAR"
 		},
 		{
 			"bufferView": 0,
-			"byteOffset": 2640,
+			"byteOffset": 270,
 			"componentType": 5123,
-			"count": 1278,
-			"max": [ 2508 ],
-			"min": [ 1287 ],
+			"count": 120,
+			"max": [ 70 ],
+			"min": [ 35 ],
 			"type": "SCALAR"
 		},
 		{
 			"bufferView": 0,
-			"byteOffset": 5196,
+			"byteOffset": 510,
 			"componentType": 5123,
-			"count": 42,
-			"max": [ 2550 ],
-			"min": [ 2509 ],
+			"count": 165,
+			"max": [ 117 ],
+			"min": [ 71 ],
 			"type": "SCALAR"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 61224,
+			"byteOffset": 2832,
 			"componentType": 5126,
-			"count": 24,
-			"max": [ 0.75, 1.5, 0.75 ],
-			"min": [ -0.75, 0, -0.75 ],
+			"count": 12,
+			"max": [ 0.1021814, 0.504312, 0.1769834 ],
+			"min": [ -0.2043628, 0, -0.1769834 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 61512,
+			"byteOffset": 2976,
 			"componentType": 5126,
-			"count": 24,
-			"max": [ 1, 0.9392008, 1 ],
-			"min": [ -1, -1, -1 ],
+			"count": 12,
+			"max": [ 0.9800846, 0.1985804, 0.8487782 ],
+			"min": [ -0.4900424, -1, -0.8487782 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 1,
-			"byteOffset": 20408,
+			"byteOffset": 944,
 			"componentType": 5126,
-			"count": 24,
-			"max": [ 0.875, 1 ],
-			"min": [ 0.125, 0 ],
+			"count": 12,
+			"max": [ 0.7500001, 1 ],
+			"min": [ 0.25, 0.03349362 ],
 			"type": "VEC2"
 		},
 		{
 			"bufferView": 3,
-			"byteOffset": 40816,
+			"byteOffset": 1888,
 			"componentType": 5126,
-			"count": 24,
-			"max": [ 0, 0.3433685, 1, 1 ],
+			"count": 12,
+			"max": [ 0.8660253, 0, 0.5000002, 1 ],
 			"min": [ -1, 0, -1, 1 ],
 			"type": "VEC4"
 		},
 		{
 			"bufferView": 0,
-			"byteOffset": 5280,
+			"byteOffset": 840,
 			"componentType": 5123,
-			"count": 36,
-			"max": [ 23 ],
+			"count": 12,
+			"max": [ 11 ],
 			"min": [ 0 ],
 			"type": "SCALAR"
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 128952,
-			"uri": "entity46022.bin"
+			"byteLength": 7104,
+			"uri": "entity40870.bin"
 		}
 	],
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 5352,
+			"byteLength": 864,
 			"target": 34963,
-			"byteOffset": 123600
+			"byteOffset": 6240
 		},
 		{
 			"buffer": 0,
-			"byteLength": 20600,
+			"byteLength": 1040,
 			"target": 34962,
 			"byteStride": 8,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
-			"byteLength": 61800,
+			"byteLength": 3120,
 			"target": 34962,
 			"byteStride": 12,
-			"byteOffset": 20600
+			"byteOffset": 1040
 		},
 		{
 			"buffer": 0,
-			"byteLength": 41200,
+			"byteLength": 2080,
 			"target": 34962,
 			"byteStride": 16,
-			"byteOffset": 82400
+			"byteOffset": 4160
 		}
 	],
 	"images": [
 		{
-			"uri": "Assets/Visuals/Materials/Tree_Wood_Albedo.jpg"
+			"uri": "Assets/Visuals/Materials/Rock_01_Albedo.jpg"
 		},
 		{
 			"uri": "Assets/Visuals/Materials/Mushroom_Clair_Albedo.jpg"
 		}
 	],
 	"materials": [
-		{
-			"pbrMetallicRoughness": {
-				"baseColorFactor": [0, 0, 0, 1],
-				"metallicFactor": 0,
-				"roughnessFactor": 1
-			},
-			"emissiveFactor": [0, 0, 0],
-			"doubleSided": false,
-			"name": "Black_Outline_Mat"
-		},
 		{
 			"pbrMetallicRoughness": {
 				"baseColorTexture" : {
@@ -182,7 +172,7 @@
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "Tree_Wood_Mat"
+			"name": "Rock_01_Mat"
 		},
 		{
 			"pbrMetallicRoughness": {
@@ -200,18 +190,28 @@
 		},
 		{
 			"pbrMetallicRoughness": {
-				"baseColorFactor": [1, 1, 1, 1],
+				"baseColorFactor": [0, 0, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Black_Outline_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.05724907, 1, 0, 1],
 				"metallicFactor": 0,
 				"roughnessFactor": 0.5
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "Default-Material"
+			"name": "_collider_Mat"
 		}
 	],
 	"meshes": [
 		{
-			"name": "mesh_Tree_Trunk_01_19154Tree_Trunk_01",
+			"name": "mesh_Mushroom_02_17646Mushroom_02 (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -249,7 +249,7 @@
 			]
 		},
 		{
-			"name": "mesh_Tree_Trunk_01_collider_19152Tree_Trunk_01_collider",
+			"name": "mesh_Mushroom_02_collider_17648Mushroom_02_collider",
 			"primitives": [
 				{
 					"attributes": {
@@ -273,7 +273,7 @@
 			]
 		},
 		{
-			"name": "node_Tree_Trunk_01",
+			"name": "node_Mushroom_02 (1)",
 			"mesh": 0,
 			"children": [
 				2
@@ -281,9 +281,8 @@
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		},
 		{
-			"name": "node_Tree_Trunk_01_collider",
-			"mesh": 1,
-			"scale": [ 1.431968, 1.878438, 1.431968]
+			"name": "node_Mushroom_02_collider",
+			"mesh": 1
 		}
 	],
 	"samplers": [
