@@ -1,0 +1,244 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 276,
+			"max": [ 0, 0.9253459, 0.44046 ],
+			"min": [ -3.930549, -1.385767, -1.65609 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 3312,
+			"componentType": 5126,
+			"count": 276,
+			"max": [ 0.9939014, 0.9903058, 0.9939871 ],
+			"min": [ -0.9906387, -0.9852491, -0.9956174 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 276,
+			"max": [ 2.269763, 1.496265 ],
+			"min": [ -0.02452263, -1.798516 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 276,
+			"max": [ 0.9477429, 0.9999541, 0.9980443, 1 ],
+			"min": [ -0.9673978, -0.994432, -0.9986004, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 1392,
+			"max": [ 275 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 6624,
+			"componentType": 5126,
+			"count": 72,
+			"max": [ -0.09598999, 0.8841459, 0.5645922 ],
+			"min": [ -4.062054, -1.389363, -1.718294 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 7488,
+			"componentType": 5126,
+			"count": 72,
+			"max": [ 1, 0.9737785, 0.9826915 ],
+			"min": [ -0.8726594, -0.9855179, -0.9900244 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 2208,
+			"componentType": 5126,
+			"count": 72,
+			"max": [ 0.875, 1 ],
+			"min": [ 0.125, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 4416,
+			"componentType": 5126,
+			"count": 72,
+			"max": [ 1, 0.2237594, 0.4381571, 1 ],
+			"min": [ -0.9577748, 0, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 2784,
+			"componentType": 5123,
+			"count": 132,
+			"max": [ 71 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 19752,
+			"uri": "entity312216n.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 3048,
+			"target": 34963,
+			"byteOffset": 16704
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2784,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 8352,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 2784
+		},
+		{
+			"buffer": 0,
+			"byteLength": 5568,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 11136
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Tree_Wood_Albedo.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Tree_Wood_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.05724907, 1, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_collider_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Root_01_18700Root_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Root_01_collider_18702Root_01_collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Root_01",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Root_01_collider",
+			"mesh": 1
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
