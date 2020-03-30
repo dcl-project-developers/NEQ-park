@@ -1242,14 +1242,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.5336
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1258,6 +1250,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &47263105 stripped
@@ -1726,14 +1726,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.5336
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1742,6 +1734,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &64503807 stripped
@@ -1978,6 +1978,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -3916,6 +3921,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &110280840 stripped
@@ -4518,14 +4528,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.5336
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -4534,6 +4536,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &131600843 stripped
@@ -6275,6 +6285,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &171479016 stripped
@@ -7000,6 +7015,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &195352851 stripped
@@ -7170,14 +7190,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 3.6230032
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -7186,6 +7198,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &204406401 stripped
@@ -7754,7 +7774,7 @@ MonoBehaviour:
   contactName: 
   email: 
   sceneToGlTFWiz: {fileID: 215698821}
-  m_GroundMaterial: {fileID: 728801495}
+  m_GroundMaterial: {fileID: 1478759134}
 --- !u!4 &215698823
 Transform:
   m_ObjectHideFlags: 0
@@ -7924,6 +7944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -8104,6 +8129,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -8644,6 +8674,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &242426193 stripped
@@ -9097,7 +9132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 1
+  exportToCustomGTLF: 0
   exportToSingleGTLF: 0
   export_custom_GTLF_name: 
 --- !u!1001 &261777085
@@ -9474,6 +9509,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &266233872 stripped
@@ -9748,6 +9788,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -11128,14 +11173,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.5336
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -11144,6 +11181,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &311045689 stripped
@@ -17794,6 +17839,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &448605350 stripped
@@ -19589,6 +19639,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &510219315 stripped
@@ -20324,6 +20379,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -21950,6 +22010,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &590494743 stripped
@@ -22050,6 +22115,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -24514,14 +24584,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.5336
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -24530,6 +24592,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &677692752 stripped
@@ -25347,14 +25417,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.01
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -25363,6 +25425,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &708515251 stripped
@@ -25925,81 +25995,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 724918557}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &728801495
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Standard
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &729659648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26621,14 +26616,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.5336
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -26637,6 +26624,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &739866909 stripped
@@ -30647,14 +30642,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.6320572
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -30663,6 +30650,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &856996439 stripped
@@ -31956,6 +31951,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &888293750 stripped
@@ -32304,6 +32304,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &901219919 stripped
@@ -32399,14 +32404,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.01
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -32415,6 +32412,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &902767825 stripped
@@ -33774,6 +33779,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &920665567 stripped
@@ -35099,6 +35109,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &940352852 stripped
@@ -35271,6 +35286,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &943247370 stripped
@@ -35371,6 +35391,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -37241,6 +37266,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &987429443 stripped
@@ -38660,6 +38690,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1027825358 stripped
@@ -39053,6 +39088,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1041752639 stripped
@@ -39153,6 +39193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -39739,6 +39784,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1059508080 stripped
@@ -39839,6 +39889,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -40010,14 +40065,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.1519483
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -40026,6 +40073,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1067468638 stripped
@@ -40751,6 +40806,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -43931,6 +43991,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1159152214 stripped
@@ -45553,6 +45618,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1191372392 stripped
@@ -46258,14 +46328,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.01
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -46274,6 +46336,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1228579028 stripped
@@ -46511,6 +46581,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1230377455 stripped
@@ -46732,6 +46807,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -47484,6 +47564,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1261700755 stripped
@@ -48105,14 +48190,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.01
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -48121,6 +48198,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1276523730 stripped
@@ -49260,14 +49345,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.2518163
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -49276,6 +49353,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1288167350 stripped
@@ -50371,6 +50456,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1322398257 stripped
@@ -51458,6 +51548,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1359400530 stripped
@@ -51783,6 +51878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -53256,6 +53356,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1415426588 stripped
@@ -53510,7 +53615,12 @@ PrefabInstance:
     - target: {fileID: 7925769067020812633, guid: a21e4e59765e9804d9e0cfe25498037b,
         type: 3}
       propertyPath: exportToCustomGTLF
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7925769067020812633, guid: a21e4e59765e9804d9e0cfe25498037b,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Rock_02_donut
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a21e4e59765e9804d9e0cfe25498037b, type: 3}
@@ -55928,6 +56038,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1476807196}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1478759134
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Standard
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &1480203181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57078,6 +57263,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1494750674 stripped
@@ -58107,14 +58297,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.483364
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -58123,6 +58305,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1536631217 stripped
@@ -58496,14 +58686,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.1519483
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -58512,6 +58694,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1544107077 stripped
@@ -59101,6 +59291,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -60046,6 +60241,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1582265308 stripped
@@ -60984,6 +61184,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1604768236 stripped
@@ -61558,6 +61763,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -62481,6 +62691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -63485,6 +63700,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1706054252 stripped
@@ -63826,6 +64046,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1721439378 stripped
@@ -63917,14 +64142,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.5336
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -63933,6 +64150,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1725409983 stripped
@@ -65179,6 +65404,21 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 9
+--- !u!114 &1738719300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738719297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exportToCustomGTLF: 0
+  exportToSingleGTLF: 1
+  export_custom_GTLF_name: 
 --- !u!1001 &1741110332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65533,6 +65773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -66452,6 +66697,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1772625213 stripped
@@ -66861,6 +67111,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -68181,6 +68436,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1815798743 stripped
@@ -68934,6 +69194,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1846661133 stripped
@@ -69283,14 +69548,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.2518163
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -69299,6 +69556,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1863930273 stripped
@@ -69526,14 +69791,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1.5336
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -69542,6 +69799,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &1866231590 stripped
@@ -70266,6 +70531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -72064,6 +72334,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &1925771786 stripped
@@ -72243,6 +72518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
@@ -76703,6 +76983,11 @@ PrefabInstance:
       propertyPath: exportToCustomGTLF
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
 --- !u!1 &2057897697 stripped
@@ -79023,14 +79308,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1.01
       objectReference: {fileID: 0}
-    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
-    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     - target: {fileID: 400002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -79039,6 +79316,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
+    - target: {fileID: 2300004, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6871feec2d0094f4fb0f5f90ba7518ff, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34f5f04e979779b4b9e7f8dd48eb7c32, type: 3}
 --- !u!1 &2114886562 stripped
@@ -79409,6 +79694,11 @@ PrefabInstance:
         type: 3}
       propertyPath: exportToCustomGTLF
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069272961316029678, guid: 10ab0f8eb024a4f4ba7b32cae646f426,
+        type: 3}
+      propertyPath: export_custom_GTLF_name
+      value: Brick_Step_01_wood_01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10ab0f8eb024a4f4ba7b32cae646f426, type: 3}
