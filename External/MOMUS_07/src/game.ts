@@ -2,12 +2,12 @@ import { NFTdata } from "./imports/index"
 import { TagComponent } from "./imports/index"
 var entity132846 = new Entity("Main Camera")
 entity132846.addComponent(new TagComponent())
-entity132846.getComponent(TagComponent).tag = "MainCamera" 
+entity132846.getComponent(TagComponent).tag = "MainCamera"
 engine.addEntity(entity132846)
 entity132846.addComponent(new Transform({ position: new Vector3(17.82851, 2.96975, 119.11) }))
 entity132846.getComponent(Transform).rotation.set(-0.002293395, -0.9935689, -0.1113413, 0.02046543)
 entity132846.getComponent(Transform).scale.set(1, 1, 1)
-
+/*
 var entity248944n = new Entity("Banner_02")
 engine.addEntity(entity248944n)
 entity248944n.addComponent(new Transform({ position: new Vector3(14.30532, 0.9671524, 96.24815) }))
@@ -21,9 +21,9 @@ entity251248n.addComponent(new Transform({ position: new Vector3(6.5, 2.71, 15.2
 entity251248n.getComponent(Transform).rotation.set(0, 0, 0, 1)
 entity251248n.getComponent(Transform).scale.set(0.70343, 0.70343, 0.70343)
 entity251248n.addComponent(new GLTFShape("unity_assets/entity251248n.gltf"))
-entity251248n.getComponent(Transform).rotation.set(0, 1, 0, -4.371139E-08)
+entity251248n.getComponent(Transform).rotation.set(0, 1, 0, -4.371139E-08)*/
 var entity249158n = new Entity("NFT_empty")
-entity249158n.addComponent(new NFTdata(entity249158n, "0x41a322b28d0ff354040e2cbc676f0320d8c8850d", "502")) 
+entity249158n.addComponent(new NFTdata(entity249158n, "0x41a322b28d0ff354040e2cbc676f0320d8c8850d", "502"))
 engine.addEntity(entity249158n)
 engine.addEntity(entity249158n)
 entity249158n.addComponent(new Transform({ position: new Vector3(9, 2.247, 37.18) }))
@@ -2462,7 +2462,7 @@ entity252100n.getComponent(Transform).scale.set(0.5184, 0.5184, 0.5184)
 entity252100n.addComponent(new GLTFShape("unity_assets/entity246826n.gltf"))
 entity252100n.getComponent(Transform).rotation.set(0, 1, 0, -4.371139E-08)
 var entity249490n = new Entity("NFT_empty (1)")
-entity249490n.addComponent(new NFTdata(entity249490n, "0x41a322b28d0ff354040e2cbc676f0320d8c8850d", "2073")) 
+entity249490n.addComponent(new NFTdata(entity249490n, "0x41a322b28d0ff354040e2cbc676f0320d8c8850d", "2073"))
 engine.addEntity(entity249490n)
 engine.addEntity(entity249490n)
 entity249490n.addComponent(new Transform({ position: new Vector3(22.75, 2.247, 57.67) }))
@@ -2512,7 +2512,7 @@ entity134420.getComponent(TextShape).hTextAlign = "left"
 entity134420.getComponent(TextShape).vTextAlign = "top"
 
 var entity251128n = new Entity("NFT_empty (2)")
-entity251128n.addComponent(new NFTdata(entity251128n, "0x41a322b28d0ff354040e2cbc676f0320d8c8850d", "1107")) 
+entity251128n.addComponent(new NFTdata(entity251128n, "0x41a322b28d0ff354040e2cbc676f0320d8c8850d", "1107"))
 engine.addEntity(entity251128n)
 engine.addEntity(entity251128n)
 entity251128n.addComponent(new Transform({ position: new Vector3(21.21, 2.247, 47.56) }))
@@ -2548,7 +2548,7 @@ entity134416.getComponent(TextShape).hTextAlign = "left"
 entity134416.getComponent(TextShape).vTextAlign = "top"
 
 var entity248222n = new Entity("NFT_empty (3)")
-entity248222n.addComponent(new NFTdata(entity248222n, "0x41a322b28d0ff354040e2cbc676f0320d8c8850d", "1339")) 
+entity248222n.addComponent(new NFTdata(entity248222n, "0x41a322b28d0ff354040e2cbc676f0320d8c8850d", "1339"))
 engine.addEntity(entity248222n)
 engine.addEntity(entity248222n)
 entity248222n.addComponent(new Transform({ position: new Vector3(26.91, 2.247, 52.67) }))
@@ -2582,14 +2582,14 @@ entity134418.getComponent(TextShape).height = 0.2234375
 entity134418.getComponent(TextShape).fontSize = 1
 entity134418.getComponent(TextShape).hTextAlign = "left"
 entity134418.getComponent(TextShape).vTextAlign = "top"
-
+/*
 var entity248902n = new Entity("Banner_Momus_01 (1)")
 engine.addEntity(entity248902n)
 entity248902n.addComponent(new Transform({ position: new Vector3(8.96, 4.53, 17.28) }))
 entity248902n.getComponent(Transform).rotation.set(0, -0.8834479, 0, 0.4685296)
 entity248902n.getComponent(Transform).scale.set(0.70343, 0.70343, 0.70343)
 entity248902n.addComponent(new GLTFShape("unity_assets/entity251248n.gltf"))
-entity248902n.getComponent(Transform).rotation.set(0, 0.4685296, 0, 0.8834479)
+entity248902n.getComponent(Transform).rotation.set(0, 0.4685296, 0, 0.8834479)*/
 setTimeout(() => {
 entity247168n.addComponent(new GLTFShape("unity_assets/entity247168n.gltf"))
 entity246910n.addComponent(new GLTFShape("unity_assets/entity247168n.gltf"))
@@ -2601,4 +2601,3 @@ entity251486n.addComponent(new GLTFShape("unity_assets/entity251486n.gltf"))
 entity249860n.addComponent(new GLTFShape("unity_assets/entity251486n.gltf"))
 entity250242n.addComponent(new GLTFShape("unity_assets/entity251486n.gltf"))
 }, 3000);
-

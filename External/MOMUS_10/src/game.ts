@@ -1,12 +1,12 @@
 import { TagComponent } from "./imports/index"
 var entity170698 = new Entity("Main Camera")
 entity170698.addComponent(new TagComponent())
-entity170698.getComponent(TagComponent).tag = "MainCamera" 
+entity170698.getComponent(TagComponent).tag = "MainCamera"
 engine.addEntity(entity170698)
 entity170698.addComponent(new Transform({ position: new Vector3(0, 1, -10) }))
 entity170698.getComponent(Transform).rotation.set(0, 0, 0, 1)
 entity170698.getComponent(Transform).scale.set(1, 1, 1)
-
+/*
 var entity301014n = new Entity("Banner_Momus_01 (2)")
 engine.addEntity(entity301014n)
 entity301014n.addComponent(new Transform({ position: new Vector3(91.78883, 2.53, 154.4801) }))
@@ -34,7 +34,7 @@ entity301134n.addComponent(new Transform({ position: new Vector3(52.74018, 2.56,
 entity301134n.getComponent(Transform).rotation.set(0, -0.5645325, 0, 0.8254108)
 entity301134n.getComponent(Transform).scale.set(1.9306, 1.9306, 1.9306)
 entity301134n.addComponent(new GLTFShape("unity_assets/entity302166n.gltf"))
-entity301134n.getComponent(Transform).rotation.set(0, 0.8254108, 0, 0.5645324)
+entity301134n.getComponent(Transform).rotation.set(0, 0.8254108, 0, 0.5645324)*/
 var entity293804n = new Entity("mesh_animation_butterfly_fly_01")
 engine.addEntity(entity293804n)
 entity293804n.addComponent(new Transform({ position: new Vector3(12.40061, 3.97, -7.763126) }))
@@ -3985,7 +3985,7 @@ entity302240n.addComponent(new Transform({ position: new Vector3(0, 0, 0) }))
 entity302240n.getComponent(Transform).rotation.set(0, 0, 0, 1)
 entity302240n.getComponent(Transform).scale.set(1, 1, 1)
 entity302240n.addComponent(new GLTFShape("unity_assets/entity302240n.gltf"))
-entity302240n.getComponent(Transform).rotation.set(0, 1, 0, -4.371139E-08)
+entity302240n.getComponent(Transform).rotation.set(0, 1, 0, -4.371139E-08)/*
 var entity303174n = new Entity("Banner_Momus_01 (1)")
 engine.addEntity(entity303174n)
 entity303174n.addComponent(new Transform({ position: new Vector3(138.8239, 3.39, 91.95668) }))
@@ -3999,7 +3999,7 @@ entity298128n.addComponent(new Transform({ position: new Vector3(85.02, 2.53, 15
 entity298128n.getComponent(Transform).rotation.set(0, 0.8086302, 0, -0.5883173)
 entity298128n.getComponent(Transform).scale.set(0.73457, 0.73457, 0.73457)
 entity298128n.addComponent(new GLTFShape("unity_assets/entity301014n.gltf"))
-entity298128n.getComponent(Transform).rotation.set(0, -0.5883174, 0, -0.8086302)
+entity298128n.getComponent(Transform).rotation.set(0, -0.5883174, 0, -0.8086302)*/
 setTimeout(() => {
 entity296240n.addComponent(new GLTFShape("unity_assets/entity296240n.gltf"))
 entity299240n.addComponent(new GLTFShape("unity_assets/entity296240n.gltf"))
@@ -4014,4 +4014,3 @@ entity299612n.addComponent(new GLTFShape("unity_assets/entity296240n.gltf"))
 entity303570n.addComponent(new GLTFShape("unity_assets/entity296240n.gltf"))
 entity295630n.addComponent(new GLTFShape("unity_assets/entity296240n.gltf"))
 }, 3000);
-
