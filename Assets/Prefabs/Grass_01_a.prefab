@@ -27,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781026237}
-  m_LocalRotation: {x: -0, y: -0.28989103, z: -0, w: 0.9570596}
-  m_LocalPosition: {x: 9.09, y: 0.10000011, z: -106.08}
-  m_LocalScale: {x: 2.11111, y: 2.05015, z: 2.11111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3040052113906589380}
   m_Father: {fileID: 0}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 0
+  exportToCustomGTLF: 1
   exportToSingleGTLF: 0
   export_custom_GTLF_name: Grass_01_a_prefab
 --- !u!95 &6202494104940093343
