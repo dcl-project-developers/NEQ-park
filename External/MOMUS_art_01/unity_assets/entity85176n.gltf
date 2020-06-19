@@ -1,0 +1,244 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 120,
+			"max": [ 3.695681, 0.2078746, 1.667401 ],
+			"min": [ -2.771555, -7.629394E-08, -1.250512 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 1440,
+			"componentType": 5126,
+			"count": 120,
+			"max": [ 0.8837621, 1, 0.8749347 ],
+			"min": [ -0.883762, -1, -0.8757964 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 120,
+			"max": [ -0.05531228, 1.960881 ],
+			"min": [ -0.9371715, 1.040705 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 120,
+			"max": [ 0.3781168, 0.8831965, 0.9996779, -1 ],
+			"min": [ -0.9330339, -0.8837619, -0.998164, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 180,
+			"max": [ 119 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 2880,
+			"componentType": 5126,
+			"count": 32,
+			"max": [ 3.990529, 0.1039373, 1.447158 ],
+			"min": [ -2.860503, 0, -1.329082 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 3264,
+			"componentType": 5126,
+			"count": 32,
+			"max": [ 0.1875543, 1, 0.3969176 ],
+			"min": [ -0.2651061, -1, -0.5222778 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 960,
+			"componentType": 5126,
+			"count": 32,
+			"max": [ 0.875, 1 ],
+			"min": [ 0.125, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 1920,
+			"componentType": 5126,
+			"count": 32,
+			"max": [ 0.8343686, 0.02048733, 0.9529899, 1 ],
+			"min": [ -0.9999992, -0.02294051, -0.6574475, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 360,
+			"componentType": 5123,
+			"count": 60,
+			"max": [ 31 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 7776,
+			"uri": "entity85176n.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 480,
+			"target": 34963,
+			"byteOffset": 7296
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1216,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3648,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 1216
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2432,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 4864
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Path_01_Albedo.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Path_01_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.05724907, 1, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_collider_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Path_02_11530Path_02 (0)",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Path_02_collider_11532Path_02_collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Path_02 (0)",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Path_02_collider",
+			"mesh": 1
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
