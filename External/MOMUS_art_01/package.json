@@ -12,5 +12,9 @@
   },
   "devDependencies": {
     "decentraland-ecs": "next"
+  },
+  "dependencies": {
+    "decentraland-ecs-utils": "^1.1.4",
+    "eth-connect": "^4.0.2"
   }
 }
