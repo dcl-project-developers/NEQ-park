@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4161739980002004681}
   - component: {fileID: 1538333347}
   - component: {fileID: 1538333346}
-  - component: {fileID: 1069272961316029678}
+  - component: {fileID: 1000523727}
   m_Layer: 0
   m_Name: Brick_Step_01
   m_TagString: Untagged
@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538333345}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -31.12587, y: -0.05000019, z: 276.05786}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6754469, y: 0.2415868, z: 0.20589457}
   m_Children:
   - {fileID: 5029846991974673435}
   m_Father: {fileID: 0}
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 0a5cd8d57be6e4046bedc285145e8831, type: 2}
-  - {fileID: 2100000, guid: ba43ae97620c7824a899abe4faa46993, type: 2}
+  - {fileID: 2100000, guid: 0a3a95688356b964a932667f1f5e6d7b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 9
---- !u!114 &1069272961316029678
+--- !u!114 &1000523727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,7 +124,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3a291908b948c408888817a422d4d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exportToCustomGTLF: 0
+  exportToCustomGTLF: 1
+  exportToSingleGTLF: 0
+  export_custom_GTLF_name: brick_wood
 --- !u!1 &7685507146693977079
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,6 +138,7 @@ GameObject:
   - component: {fileID: 5029846991974673435}
   - component: {fileID: 3960361349818252952}
   - component: {fileID: 551537506543355883}
+  - component: {fileID: 1000523726}
   m_Layer: 8
   m_Name: Brick_Step_01_collider
   m_TagString: Untagged
@@ -202,3 +205,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1000523726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7685507146693977079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5855706adc1f6b4385162845c875b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visible: 1
+  withCollision: 0
+  m_primitiveType: 6
+  dclNodeType: 10

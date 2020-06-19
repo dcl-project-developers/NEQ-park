@@ -10,10 +10,10 @@
   "owner": "",
   "scene": {
     "parcels": [
-      "57,-11",
-      "57,-10"
+      "16,30",
+      "17,30"
     ],
-    "base": "57,-11"
+    "base": "16,30"
   },
   "communications": {
     "type": "webrtc",
