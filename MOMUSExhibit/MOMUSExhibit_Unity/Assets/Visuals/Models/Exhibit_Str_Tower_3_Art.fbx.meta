@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 4ab3b4e88acd4f3408e3d5bbe280d09b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Exhibit_Str_Tower_Floor0
+    100004: Exhibit_Str_Tower_Floor1
+    100006: Exhibit_Str_Tower_Floor2
+    100008: Exhibit_Str_Tower_Floor3
+    100010: Exhibit_Str_Tower_Floor4
+    100012: Exhibit_Str_Tower_3_Floor_1
+    100014: Exhibit_Str_Tower_3_Floor_2
+    100016: Exhibit_Str_Tower_3_Floor_3
+    100018: Exhibit_Str_Tower_3_Floor_4
+    100020: Exhibit_Str_Tower_3_Floor_5
+    100022: Exhibit_Str_Tower_Pillars_3_Collider
+    100024: Exhibit_Str_Tower_3_Floor_7
+    100026: Elevator_Close
+    100028: Elevator_Collider
+    100030: Elevator_Glasswall
+    100032: Elevator_Glasswall_Collider
+    100034: Elevator_Machine
+    100036: Elevator_Platform_3
+    100038: Elevator_Platform_Collider
+    100040: Exhibit_Sign
+    100042: Elevator_Platform_Corridor_3
+    100044: Exhibit_Str_Tower_3_Glass
+    400000: //RootNode
+    400002: Exhibit_Str_Tower_Floor0
+    400004: Exhibit_Str_Tower_Floor1
+    400006: Exhibit_Str_Tower_Floor2
+    400008: Exhibit_Str_Tower_Floor3
+    400010: Exhibit_Str_Tower_Floor4
+    400012: Exhibit_Str_Tower_3_Floor_1
+    400014: Exhibit_Str_Tower_3_Floor_2
+    400016: Exhibit_Str_Tower_3_Floor_3
+    400018: Exhibit_Str_Tower_3_Floor_4
+    400020: Exhibit_Str_Tower_3_Floor_5
+    400022: Exhibit_Str_Tower_Pillars_3_Collider
+    400024: Exhibit_Str_Tower_3_Floor_7
+    400026: Elevator_Close
+    400028: Elevator_Collider
+    400030: Elevator_Glasswall
+    400032: Elevator_Glasswall_Collider
+    400034: Elevator_Machine
+    400036: Elevator_Platform_3
+    400038: Elevator_Platform_Collider
+    400040: Exhibit_Sign
+    400042: Elevator_Platform_Corridor_3
+    400044: Exhibit_Str_Tower_3_Glass
+    2100000: phong1
+    2300000: //RootNode
+    2300002: Exhibit_Str_Tower_Floor0
+    2300004: Exhibit_Str_Tower_Floor1
+    2300006: Exhibit_Str_Tower_Floor2
+    2300008: Exhibit_Str_Tower_Floor3
+    2300010: Exhibit_Str_Tower_Floor4
+    2300012: Exhibit_Str_Tower_3_Floor_1
+    2300014: Exhibit_Str_Tower_3_Floor_2
+    2300016: Exhibit_Str_Tower_3_Floor_3
+    2300018: Exhibit_Str_Tower_3_Floor_4
+    2300020: Exhibit_Str_Tower_3_Floor_5
+    2300022: Exhibit_Str_Tower_Pillars_3_Collider
+    2300024: Exhibit_Str_Tower_3_Floor_7
+    2300026: Elevator_Close
+    2300028: Elevator_Collider
+    2300030: Elevator_Glasswall
+    2300032: Elevator_Glasswall_Collider
+    2300034: Elevator_Machine
+    2300036: Elevator_Platform_3
+    2300038: Elevator_Platform_Collider
+    2300040: Exhibit_Sign
+    2300042: Elevator_Platform_Corridor_3
+    2300044: Exhibit_Str_Tower_3_Glass
+    3300000: //RootNode
+    3300002: Exhibit_Str_Tower_Floor0
+    3300004: Exhibit_Str_Tower_Floor1
+    3300006: Exhibit_Str_Tower_Floor2
+    3300008: Exhibit_Str_Tower_Floor3
+    3300010: Exhibit_Str_Tower_Floor4
+    3300012: Exhibit_Str_Tower_3_Floor_1
+    3300014: Exhibit_Str_Tower_3_Floor_2
+    3300016: Exhibit_Str_Tower_3_Floor_3
+    3300018: Exhibit_Str_Tower_3_Floor_4
+    3300020: Exhibit_Str_Tower_3_Floor_5
+    3300022: Exhibit_Str_Tower_Pillars_3_Collider
+    3300024: Exhibit_Str_Tower_3_Floor_7
+    3300026: Elevator_Close
+    3300028: Elevator_Collider
+    3300030: Elevator_Glasswall
+    3300032: Elevator_Glasswall_Collider
+    3300034: Elevator_Machine
+    3300036: Elevator_Platform_3
+    3300038: Elevator_Platform_Collider
+    3300040: Exhibit_Sign
+    3300042: Elevator_Platform_Corridor_3
+    3300044: Exhibit_Str_Tower_3_Glass
+    4300000: Exhibit_Str_Tower_Pillars_3
+    4300002: Exhibit_Str_Tower_Floor0
+    4300004: Exhibit_Str_Tower_Floor2
+    4300006: Exhibit_Str_Tower_Floor3
+    4300008: Exhibit_Str_Tower_Floor4
+    4300010: Exhibit_Str_Tower_Floor1
+    4300012: Exhibit_Str_Tower_3_Floor_1
+    4300014: Exhibit_Str_Tower_3_Floor_4
+    4300016: Exhibit_Str_Tower_3_Floor_5
+    4300018: Exhibit_Str_Tower_3_Floor_3
+    4300020: Exhibit_Str_Tower_3_Floor_2
+    4300022: Exhibit_Str_Tower_Pillars_3_Collider
+    4300024: Exhibit_Str_Tower_3_Floor_7
+    4300026: Elevator_Platform_3
+    4300028: Exhibit_Sign
+    4300030: Elevator_Glasswall
+    4300032: Elevator_Glasswall_Collider
+    4300034: Elevator_Platform_Collider
+    4300036: Elevator_Close
+    4300038: Elevator_Machine
+    4300040: Elevator_Collider
+    4300042: Elevator_Platform_Corridor_3
+    4300044: Exhibit_Str_Tower_3_Glass
+    7400000: elevatorTower3
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: elevatorTower3
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 960
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

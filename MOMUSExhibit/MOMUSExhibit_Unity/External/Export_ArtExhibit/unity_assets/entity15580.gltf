@@ -1,0 +1,289 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 60,
+			"max": [ 1.341641, 1.275976, 1.5 ],
+			"min": [ -1.341641, -1.275976, -1.5 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 720,
+			"componentType": 5126,
+			"count": 60,
+			"max": [ 0.9822469, 0.9341723, 0.7946545 ],
+			"min": [ -0.9822469, -0.9341725, -0.7946547 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 60,
+			"max": [ 0.9919194, 0.9920862 ],
+			"min": [ 0.8050087, 0.8301925 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 60,
+			"max": [ 0.951121, 1, 0.8507798, 1 ],
+			"min": [ -0.9510412, -1, -0.850522, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 60,
+			"max": [ 59 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 478,
+			"max": [ 15.93326 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 478,
+			"max": [ 0, 1.999723, 0 ],
+			"min": [ 0, 0, 0 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 478,
+			"max": [ 0.999985, 0, 0, 0.9999582 ],
+			"min": [ 3.415241E-10, 0, 0, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 5736,
+			"componentType": 5126,
+			"count": 478,
+			"max": [ 1, 1, 1 ],
+			"min": [ 0.8000275, 0.8000275, 0.8000275 ],
+			"type": "VEC3"
+		}
+	],
+	"animations": [
+		{
+			"name": "Exhibit_Geoball_Art (1)",
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 1,
+						"path": "translation"
+					}
+				},
+				{
+					"sampler": 1,
+					"target": {
+						"node": 1,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 2,
+					"target": {
+						"node": 1,
+						"path": "scale"
+					}
+				}
+			],
+			"samplers": [
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 6
+				},
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 7
+				},
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 8
+				}
+			]
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 24032,
+			"uri": "entity15580.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 120,
+			"target": 34963,
+			"byteOffset": 4792
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1912,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 480,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 1912
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 2392
+		},
+		{
+			"buffer": 0,
+			"byteLength": 960,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 3832
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11472,
+			"byteStride": 12,
+			"byteOffset": 4912
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7648,
+			"byteStride": 16,
+			"byteOffset": 16384
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Raw/Atlas_5_Albedo.png"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Raw/Atlas_5_Metallic_converted_metalRoughness.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Raw/Atlas_5_Normal.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 0.627451],
+				"metallicRoughnessTexture" : {
+					"index" : 1,
+					"texCoord" : 0
+				},
+				"metallicFactor": 1,
+				"roughnessFactor": 1
+			},
+			"alphaMode": "BLEND",
+			"alphaCutoff": 0.5,
+			"normalTexture" : {
+				"index" : 2,
+				"texCoord" : 0,
+				"scale" : 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Atlas_5_Trans_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Exhibit_Geoball_10554Exhibit_Geoball_Art (1)",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Exhibit_Geoball_Art (1)",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}

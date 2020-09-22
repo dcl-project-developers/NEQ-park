@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 89e91b2eed97e5b48aeb2d5db7a76bee
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: pasted__cloud
+    100002: pasted__cloud.1
+    100004: pasted__cloud.2
+    100006: pasted__Clouds
+    100008: pasted__Platonic.003
+    100010: pasted__Platonic.010
+    100012: pasted__Platonic.011
+    100014: pasted__Platonic.012
+    100016: pasted__Platonic.013
+    100018: pasted__Platonic.014
+    100020: pasted__Platonic.015
+    100022: pasted__Platonic.016
+    100024: pasted__Platonic.017
+    100026: pasted__Platonic.018
+    100028: pasted__Platonic.1
+    100030: pasted__Platonic.2
+    100032: pasted__Platonic.444
+    100034: pasted__Platonic.447
+    100036: pasted__Platonic.448
+    100038: pasted__Platonic.5
+    100040: pasted__Platonic.6
+    100042: pasted__Platonic.7
+    100044: pasted__Platonic.8
+    100046: pasted__Platonic.9
+    100048: pasted__Platonic1
+    100050: //RootNode
+    400000: pasted__cloud
+    400002: pasted__cloud.1
+    400004: pasted__cloud.2
+    400006: pasted__Clouds
+    400008: pasted__Platonic.003
+    400010: pasted__Platonic.010
+    400012: pasted__Platonic.011
+    400014: pasted__Platonic.012
+    400016: pasted__Platonic.013
+    400018: pasted__Platonic.014
+    400020: pasted__Platonic.015
+    400022: pasted__Platonic.016
+    400024: pasted__Platonic.017
+    400026: pasted__Platonic.018
+    400028: pasted__Platonic.1
+    400030: pasted__Platonic.2
+    400032: pasted__Platonic.444
+    400034: pasted__Platonic.447
+    400036: pasted__Platonic.448
+    400038: pasted__Platonic.5
+    400040: pasted__Platonic.6
+    400042: pasted__Platonic.7
+    400044: pasted__Platonic.8
+    400046: pasted__Platonic.9
+    400048: pasted__Platonic1
+    400050: //RootNode
+    2100000: pasted__Platonic
+    2100002: pasted__Platonic.445
+    2100004: pasted__Platonic.446
+    2100006: pasted__Platonic.3
+    2100008: pasted__Platonic.4
+    2100010: pasted__MatPack_3
+    2300000: pasted__Platonic.003
+    2300002: pasted__Platonic.010
+    2300004: pasted__Platonic.011
+    2300006: pasted__Platonic.012
+    2300008: pasted__Platonic.013
+    2300010: pasted__Platonic.014
+    2300012: pasted__Platonic.015
+    2300014: pasted__Platonic.016
+    2300016: pasted__Platonic.017
+    2300018: pasted__Platonic.018
+    2300020: pasted__Platonic.1
+    2300022: pasted__Platonic.2
+    2300024: pasted__Platonic.444
+    2300026: pasted__Platonic.447
+    2300028: pasted__Platonic.448
+    2300030: pasted__Platonic.5
+    2300032: pasted__Platonic.6
+    2300034: pasted__Platonic.7
+    2300036: pasted__Platonic.8
+    2300038: pasted__Platonic.9
+    2300040: pasted__Platonic1
+    3300000: pasted__Platonic.003
+    3300002: pasted__Platonic.010
+    3300004: pasted__Platonic.011
+    3300006: pasted__Platonic.012
+    3300008: pasted__Platonic.013
+    3300010: pasted__Platonic.014
+    3300012: pasted__Platonic.015
+    3300014: pasted__Platonic.016
+    3300016: pasted__Platonic.017
+    3300018: pasted__Platonic.018
+    3300020: pasted__Platonic.1
+    3300022: pasted__Platonic.2
+    3300024: pasted__Platonic.444
+    3300026: pasted__Platonic.447
+    3300028: pasted__Platonic.448
+    3300030: pasted__Platonic.5
+    3300032: pasted__Platonic.6
+    3300034: pasted__Platonic.7
+    3300036: pasted__Platonic.8
+    3300038: pasted__Platonic.9
+    3300040: pasted__Platonic1
+    4300000: pasted__Platonic.5
+    4300002: pasted__Platonic.444
+    4300004: pasted__Platonic.2
+    4300006: pasted__Platonic.1
+    4300008: pasted__Platonic1
+    4300010: pasted__Platonic.6
+    4300012: pasted__Platonic.7
+    4300014: pasted__Platonic.8
+    4300016: pasted__Platonic.9
+    4300018: pasted__Platonic.003
+    4300020: pasted__Platonic.447
+    4300022: pasted__Platonic.448
+    4300024: pasted__Platonic.010
+    4300026: pasted__Platonic.011
+    4300028: pasted__Platonic.012
+    4300030: pasted__Platonic.013
+    4300032: pasted__Platonic.014
+    4300034: pasted__Platonic.015
+    4300036: pasted__Platonic.016
+    4300038: pasted__Platonic.017
+    4300040: pasted__Platonic.018
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
