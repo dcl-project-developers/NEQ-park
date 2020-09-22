@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 426aea51dd102f64fb7a1104b88bc84a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bn_body
+    100002: bn_body01
+    100004: bn_body02
+    100006: bn_body03
+    100008: bn_body_end
+    100010: bn_body_tail
+    100012: bn_body_tail_end
+    100014: bn_head
+    100016: bn_head_end
+    100018: bn_head_l_eyebrow
+    100020: bn_head_l_eyebrow_end
+    100022: bn_head_r_eyebrow
+    100024: bn_head_r_eyebrow_end
+    100026: bn_l_downwing_01
+    100028: bn_l_downwing_02
+    100030: bn_l_downwing_03
+    100032: bn_l_downwing_end
+    100034: bn_l_upwing_01
+    100036: bn_l_upwing_02
+    100038: bn_l_upwing_03
+    100040: bn_l_upwing_end
+    100042: bn_r_downwing_01
+    100044: bn_r_downwing_02
+    100046: bn_r_downwing_03
+    100048: bn_r_downwing_end
+    100050: bn_r_upwing_01
+    100052: bn_r_upwing_02
+    100054: bn_r_upwing_03
+    100056: bn_r_upwing_end
+    100058: ctrl_body
+    100060: ctrl_head
+    100062: ctrl_l_downwing
+    100064: ctrl_l_ear
+    100066: ctrl_l_eyebrow
+    100068: ctrl_l_upwing
+    100070: ctrl_pp
+    100072: ctrl_r_downwing
+    100074: ctrl_r_ear
+    100076: ctrl_r_eyebrow
+    100078: ctrl_r_upwing
+    100080: ctrl_tail
+    100082: //RootNode
+    100084: mesh_owl_01
+    100086: mesh_owl_02
+    100088: mesh_owl_03
+    400000: bn_body
+    400002: bn_body01
+    400004: bn_body02
+    400006: bn_body03
+    400008: bn_body_end
+    400010: bn_body_tail
+    400012: bn_body_tail_end
+    400014: bn_head
+    400016: bn_head_end
+    400018: bn_head_l_eyebrow
+    400020: bn_head_l_eyebrow_end
+    400022: bn_head_r_eyebrow
+    400024: bn_head_r_eyebrow_end
+    400026: bn_l_downwing_01
+    400028: bn_l_downwing_02
+    400030: bn_l_downwing_03
+    400032: bn_l_downwing_end
+    400034: bn_l_upwing_01
+    400036: bn_l_upwing_02
+    400038: bn_l_upwing_03
+    400040: bn_l_upwing_end
+    400042: bn_r_downwing_01
+    400044: bn_r_downwing_02
+    400046: bn_r_downwing_03
+    400048: bn_r_downwing_end
+    400050: bn_r_upwing_01
+    400052: bn_r_upwing_02
+    400054: bn_r_upwing_03
+    400056: bn_r_upwing_end
+    400058: ctrl_body
+    400060: ctrl_head
+    400062: ctrl_l_downwing
+    400064: ctrl_l_ear
+    400066: ctrl_l_eyebrow
+    400068: ctrl_l_upwing
+    400070: ctrl_pp
+    400072: ctrl_r_downwing
+    400074: ctrl_r_ear
+    400076: ctrl_r_eyebrow
+    400078: ctrl_r_upwing
+    400080: ctrl_tail
+    400082: //RootNode
+    400084: mesh_owl_01
+    400086: mesh_owl_02
+    400088: mesh_owl_03
+    2100000: Outline
+    2100002: mat_owl
+    4300000: mesh_owl_01
+    4300002: mesh_owl_03
+    4300004: mesh_owl_02
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: mesh_owl_01
+    13700002: mesh_owl_02
+    13700004: mesh_owl_03
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline
+    second: {fileID: 2100000, guid: 0a5cd8d57be6e4046bedc285145e8831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_owl
+    second: {fileID: 2100000, guid: 43ed7de1ada88ad4395e2d60c9d0b5f7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

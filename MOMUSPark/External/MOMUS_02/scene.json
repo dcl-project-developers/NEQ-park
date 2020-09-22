@@ -1,0 +1,43 @@
+{
+  "display": {
+    "title": "interactive-text",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "",
+    "email": ""
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+      "8,40",
+      "8,39",
+      "8,38",
+      "8,37",
+      "8,36",
+      "8,35",
+      "8,34",
+      "8,33",
+      "8,32",
+      "8,31",
+      "8,30",
+      "8,29",
+      "8,28",
+      "8,27"
+    ],
+    "base": "8,40"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": [],
+    "teleportPosition": ""
+  },
+  "main": "bin/game.js",
+  "tags": []
+}

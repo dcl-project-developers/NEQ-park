@@ -1,0 +1,244 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 132,
+			"max": [ 1.644115, 2.295347, 1.096589 ],
+			"min": [ -1.069978, -0.3106, -0.9295385 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 1584,
+			"componentType": 5126,
+			"count": 132,
+			"max": [ 0.958243, 0.9971085, 0.9732806 ],
+			"min": [ -0.9866422, -0.9988106, -0.9925626 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 132,
+			"max": [ 0.9999999, 0.6079295 ],
+			"min": [ 0, 0.001844108 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 132,
+			"max": [ 0.9945029, 0.8881027, 0.811105, 1 ],
+			"min": [ -0.991227, -0.9964406, -0.9933828, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 456,
+			"max": [ 131 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 3168,
+			"componentType": 5126,
+			"count": 68,
+			"max": [ 1.631855, 2.263472, 1.323624 ],
+			"min": [ -1.06066, 0, -1.052838 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 3984,
+			"componentType": 5126,
+			"count": 68,
+			"max": [ 0.8726393, 1, 0.9638184 ],
+			"min": [ -0.8944099, -1, -0.8858883 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 1056,
+			"componentType": 5126,
+			"count": 68,
+			"max": [ 0.75, 1 ],
+			"min": [ 0.25, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 2112,
+			"componentType": 5126,
+			"count": 68,
+			"max": [ 1, 0.7133253, 0.4638986, 1 ],
+			"min": [ -0.8858883, -0.9975013, -0.8726393, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 912,
+			"componentType": 5123,
+			"count": 108,
+			"max": [ 67 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 10728,
+			"uri": "entity65110n.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 1128,
+			"target": 34963,
+			"byteOffset": 9600
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1600,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4800,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 1600
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3200,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 6400
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Rock_01_Albedo.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Rock_01_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.05724907, 1, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "_collider_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Rock_05_4272Rock_05",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Rock_05_collider_4274Rock_05_collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Rock_05",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Rock_05_collider",
+			"mesh": 1
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}

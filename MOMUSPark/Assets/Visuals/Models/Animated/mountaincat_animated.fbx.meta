@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 465a9e8d48210e445a5501260cf737d7
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bn_c_body_01
+    100002: bn_c_body_02
+    100004: bn_c_body_03
+    100006: bn_c_head_01
+    100008: bn_c_head_end
+    100010: bn_c_head_l_ear_01
+    100012: bn_c_head_l_ear_end
+    100014: bn_c_head_r_ear_01
+    100016: bn_c_head_r_ear_end
+    100018: bn_c_tail_01
+    100020: bn_c_tail_end
+    100022: bn_l_arm_01
+    100024: bn_l_arm_02
+    100026: bn_l_arm_03
+    100028: bn_l_arm_end
+    100030: bn_l_leg_01
+    100032: bn_l_leg_02
+    100034: bn_l_leg_03
+    100036: bn_l_leg_04
+    100038: bn_l_leg_end
+    100040: bn_r_arm_01
+    100042: bn_r_arm_02
+    100044: bn_r_arm_03
+    100046: bn_r_arm_end
+    100048: bn_r_leg_01
+    100050: bn_r_leg_02
+    100052: bn_r_leg_03
+    100054: bn_r_leg_04
+    100056: bn_r_leg_end
+    100058: ctrl_head
+    100060: ctrl_hips
+    100062: ctrl_l_arm
+    100064: ctrl_l_ear
+    100066: ctrl_l_elbow
+    100068: ctrl_l_knee
+    100070: ctrl_l_leg
+    100072: CTRL_PP
+    100074: ctrl_r_arm
+    100076: ctrl_r_ear
+    100078: ctrl_r_elbow
+    100080: ctrl_r_knee
+    100082: ctrl_r_leg
+    100084: ctrl_shoulders
+    100086: ctrl_spine
+    100088: ikHandle1
+    100090: ikHandle_l_arm
+    100092: ikHandle_l_leg
+    100094: ikHandle_r_arm
+    100096: ikHandle_r_leg
+    100098: mesh_mountain_cat_01
+    100100: mesh_mountain_cat_02
+    100102: mesh_mountain_cat_03
+    100104: mesh_mountain_cat_04
+    100106: mesh_mountain_cat_05
+    100108: mesh_mountain_cat_06
+    100110: //RootNode
+    100112: nurbsCircle1
+    400000: bn_c_body_01
+    400002: bn_c_body_02
+    400004: bn_c_body_03
+    400006: bn_c_head_01
+    400008: bn_c_head_end
+    400010: bn_c_head_l_ear_01
+    400012: bn_c_head_l_ear_end
+    400014: bn_c_head_r_ear_01
+    400016: bn_c_head_r_ear_end
+    400018: bn_c_tail_01
+    400020: bn_c_tail_end
+    400022: bn_l_arm_01
+    400024: bn_l_arm_02
+    400026: bn_l_arm_03
+    400028: bn_l_arm_end
+    400030: bn_l_leg_01
+    400032: bn_l_leg_02
+    400034: bn_l_leg_03
+    400036: bn_l_leg_04
+    400038: bn_l_leg_end
+    400040: bn_r_arm_01
+    400042: bn_r_arm_02
+    400044: bn_r_arm_03
+    400046: bn_r_arm_end
+    400048: bn_r_leg_01
+    400050: bn_r_leg_02
+    400052: bn_r_leg_03
+    400054: bn_r_leg_04
+    400056: bn_r_leg_end
+    400058: ctrl_head
+    400060: ctrl_hips
+    400062: ctrl_l_arm
+    400064: ctrl_l_ear
+    400066: ctrl_l_elbow
+    400068: ctrl_l_knee
+    400070: ctrl_l_leg
+    400072: CTRL_PP
+    400074: ctrl_r_arm
+    400076: ctrl_r_ear
+    400078: ctrl_r_elbow
+    400080: ctrl_r_knee
+    400082: ctrl_r_leg
+    400084: ctrl_shoulders
+    400086: ctrl_spine
+    400088: ikHandle1
+    400090: ikHandle_l_arm
+    400092: ikHandle_l_leg
+    400094: ikHandle_r_arm
+    400096: ikHandle_r_leg
+    400098: mesh_mountain_cat_01
+    400100: mesh_mountain_cat_02
+    400102: mesh_mountain_cat_03
+    400104: mesh_mountain_cat_04
+    400106: mesh_mountain_cat_05
+    400108: mesh_mountain_cat_06
+    400110: //RootNode
+    400112: nurbsCircle1
+    2100000: Outline
+    2100002: mat_mountain_cat_01
+    4300000: mesh_mountain_cat_01
+    4300002: mesh_mountain_cat_06
+    4300004: mesh_mountain_cat_05
+    4300006: mesh_mountain_cat_04
+    4300008: mesh_mountain_cat_03
+    4300010: mesh_mountain_cat_02
+    7400000: mc_walk
+    7400002: mc_sleep
+    7400004: mc_idle
+    9500000: //RootNode
+    13700000: mesh_mountain_cat_01
+    13700002: mesh_mountain_cat_02
+    13700004: mesh_mountain_cat_03
+    13700006: mesh_mountain_cat_04
+    13700008: mesh_mountain_cat_05
+    13700010: mesh_mountain_cat_06
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outline
+    second: {fileID: 2100000, guid: 0a5cd8d57be6e4046bedc285145e8831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_mountain_cat_01
+    second: {fileID: 2100000, guid: 232e54f58fe395344a413c95619992b1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mc_walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mc_sleep
+      takeName: Take 001
+      firstFrame: 27
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mc_idle
+      takeName: Take 001
+      firstFrame: 83
+      lastFrame: 227
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
